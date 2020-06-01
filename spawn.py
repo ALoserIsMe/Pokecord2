@@ -9,6 +9,6 @@ async def catch(ctx, arg):
     await ctx.send(arg)
 
 try:
-    bot.run("NzE3MDY4Mjc3NjY2MjgzNTUx.XtVSdQ.KEmIjUy_54QPxm_dFHy97g6h1xE")
+    bot.run("Put Token Here")
 except KeyboardInterrupt:
     print("Bot Stopped Due to keyboard Interrupt.")
