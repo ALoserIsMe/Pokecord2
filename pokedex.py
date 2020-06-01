@@ -1153,6 +1153,66 @@ class gogoat(pokemon):
         self.hiddenAbility = "Grasse Pelt"
         self.hidAbBool     = False
 
+class articuno(pokemon):
+    def __init__(self):
+        self.pokedex       = 144
+        self.species       = "Articuno"
+        self.nature        = self.generateNature()
+        self.type          = ["Ice", "Flying"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 90
+        self.attack        = 85
+        self.defense       = 100
+        self.spAtk         = 95
+        self.spDef         = 125
+        self.speed         = 85
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Pressure"
+        self.hiddenAbility = "Snow Cloak"
+        self.hidAbBool     = False
+        
+        class zapdos(pokemon):
+    def __init__(self):
+        self.pokedex       = 145
+        self.species       = "Zapdos"
+        self.nature        = self.generateNature()
+        self.type          = ["Electric", "Flying"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 90
+        self.attack        = 90
+        self.defense       = 85
+        self.spAtk         = 125
+        self.spDef         = 90
+        self.speed         = 100
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Pressure"
+        self.hiddenAbility = "Static"
+        self.hidAbBool     = False
+        
+        class moltres(pokemon):
+    def __init__(self):
+        self.pokedex       = 146
+        self.species       = "Moltres"
+        self.nature        = self.generateNature()
+        self.type          = ["Fire", "Flying"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 90
+        self.attack        = 100
+        self.defense       = 90
+        self.spAtk         = 125
+        self.spDef         = 85
+        self.speed         = 90
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Pressure"
+        self.hiddenAbility = "Flame Body"
+        self.hidAbBool     = False
+        
 #pokemon = flabebe()
 #pokemon.setNickname("Paul")
 #print(pokemon.getNickname())
