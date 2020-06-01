@@ -1,23 +1,14 @@
 from discord.ext import commands
 from pokedex  import *
 import random
+import time
 
-bot = commands.Bot(commapnd_prefix = "p!")
+bot = commands.Bot(command_prefix = "p!")
 
-class pokecord2:
-    def __init__(self):
-        self.currentPokemon = ""
-        spawnPokemon()
+async def catch(ctx, arg):
+    await ctx.send(arg)
 
-    def spawnPokemon(self):
-        pokemons = [bulbasaur(), charmander(), squirtle()] 
-        spawn = random.choice(pokemons)
-
-        print(spawn.getPokedex())
-        playerGuess = input("> ")
-        if playerGuess.lower() == spawn.getSpecies().lower():
-            print("Caught " + spawn.getSpecies())
-        else:
-            print("Wrong pokemon")
-
-
+try:
+    bot.run("NzE3MDY4Mjc3NjY2MjgzNTUx.XtVSdQ.KEmIjUy_54QPxm_dFHy97g6h1xE")
+except KeyboardInterrupt:
+    print("Bot Stopped Due to keyboard Interrupt.")
