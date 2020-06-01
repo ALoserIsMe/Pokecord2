@@ -371,7 +371,107 @@ class caterpie(pokemon):
         self.abilities     = []                                 
         self.ability       = "Shield Dust"                         
         self.hiddenAbility = "Run Away"                      
-        self.hidAbBool     = False                     
+        self.hidAbBool     = False   
+        
+class metapod(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 11                                  
+        self.species       = "Metapod"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Bug"]                
+        self.level         = self.generateLevel(7, 9)           
+        self.hp            = 50                                
+        self.attack        = 20                               
+        self.defense       = 55                                
+        self.spAtk         = 25                              
+        self.spDef         = 25                       
+        self.speed         = 30                              
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Shed Skin"                         
+        self.hiddenAbility = ""                      
+        self.hidAbBool     = False
+        
+class butterfree(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 12                                
+        self.species       = "Butterfree"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Bug", "Flying"]                
+        self.level         = self.generateLevel(10, 100)           
+        self.hp            = 60                                
+        self.attack        = 45                                
+        self.defense       = 50                                
+        self.spAtk         = 90                                
+        self.spDef         = 80                               
+        self.speed         = 70                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Compound Eyes"                         
+        self.hiddenAbility = "Tinted Lens"                      
+        self.hidAbBool     = False   
+        
+class weedle(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 13                                  
+        self.species       = "Weedle"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Bug", "Poison"]                
+        self.level         = self.generateLevel(1, 6)           
+        self.hp            = 40                                
+        self.attack        = 35                               
+        self.defense       = 30                                
+        self.spAtk         = 20                                 
+        self.spDef         = 20                               
+        self.speed         = 50                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Shield Dust"                         
+        self.hiddenAbility = "Run Away"                      
+        self.hidAbBool     = False   
+        
+class kakuna(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 14                                  
+        self.species       = "Kakuna"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Bug", "Poison"]                
+        self.level         = self.generateLevel(7, 9)           
+        self.hp            = 45                                 
+        self.attack        = 25                                
+        self.defense       = 50                                
+        self.spAtk         = 25                                
+        self.spDef         = 25                               
+        self.speed         = 35                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Shed Skin"                         
+        self.hiddenAbility = ""                      
+        self.hidAbBool     = False
+        
+class beedrill(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 15                                 
+        self.species       = "Beedrill"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Bug", "Poison"]                
+        self.level         = self.generateLevel(10, 100)           
+        self.hp            = 65                                 
+        self.attack        = 90                                
+        self.defense       = 40                                 
+        self.spAtk         = 45                                
+        self.spDef         = 80                              
+        self.speed         = 75                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Swarm"                         
+        self.hiddenAbility = "Sniper"                      
+        self.hidAbBool     = False   
 
 class rhydon(pokemon):
     def __init__(self):
