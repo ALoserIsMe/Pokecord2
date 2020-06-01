@@ -1,4 +1,4 @@
-from discord.py import commands
+from discord.ext import commands
 from pokedex  import *
 import random
 
@@ -6,7 +6,8 @@ bot = commands.Bot(commapnd_prefix = "p!")
 
 class pokecord2:
     def __init__(self):
-        pass
+        self.currentPokemon = ""
+        spawnPokemon()
 
     def spawnPokemon(self):
         pokemons = [bulbasaur(), charmander(), squirtle()] 
