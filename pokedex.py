@@ -352,6 +352,26 @@ class blastoise(pokemon):
         self.ability       = "Torrent"
         self.hiddenAbility = "Rain Dish"
         self.hidAbBool     = False
+        
+class caterpie(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 10                                  
+        self.species       = "Caterpie"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Bug"]                
+        self.level         = self.generateLevel(1, 6)           
+        self.hp            = 45                                 
+        self.attack        = 30                                 
+        self.defense       = 35                                 
+        self.spAtk         = 20                                 
+        self.spDef         = 20                               
+        self.speed         = 45                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Shield Dust"                         
+        self.hiddenAbility = "Run Away"                      
+        self.hidAbBool     = False                     
 
 class rhydon(pokemon):
     def __init__(self):
