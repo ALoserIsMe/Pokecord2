@@ -355,7 +355,7 @@ class blastoise(pokemon):
         
 class caterpie(pokemon):                                      
     def __init__(self): 
-        self.pokedex       = 10                                  
+        self.pokedex       = 10                                   
         self.species       = "Caterpie"                        
         self.nature        = self.generateNature()
         self.type          = ["Bug"]                
@@ -375,7 +375,7 @@ class caterpie(pokemon):
         
 class metapod(pokemon):                                      
     def __init__(self): 
-        self.pokedex       = 11                                  
+        self.pokedex       = 11                                    
         self.species       = "Metapod"                        
         self.nature        = self.generateNature()
         self.type          = ["Bug"]                
@@ -395,7 +395,7 @@ class metapod(pokemon):
         
 class butterfree(pokemon):                                      
     def __init__(self): 
-        self.pokedex       = 12                                
+        self.pokedex       = 12                                 
         self.species       = "Butterfree"                        
         self.nature        = self.generateNature()
         self.type          = ["Bug", "Flying"]                
@@ -415,7 +415,7 @@ class butterfree(pokemon):
         
 class weedle(pokemon):                                      
     def __init__(self): 
-        self.pokedex       = 13                                  
+        self.pokedex       = 13                                    
         self.species       = "Weedle"                        
         self.nature        = self.generateNature()
         self.type          = ["Bug", "Poison"]                
@@ -472,7 +472,187 @@ class beedrill(pokemon):
         self.ability       = "Swarm"                         
         self.hiddenAbility = "Sniper"                      
         self.hidAbBool     = False   
+        
+class pidgey(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 16.0                                 
+        self.species       = "Pidgey"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Normal", "Flying"]                
+        self.level         = self.generateLevel(1, 17)           
+        self.hp            = 40                                 
+        self.attack        = 45                               
+        self.defense       = 40                                 
+        self.spAtk         = 35                               
+        self.spDef         = 35                              
+        self.speed         = 56                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Keen Eye", "Tangled Feet"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Big Pecks"                      
+        self.hidAbBool     = False   
+        
+class pidgeotto(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 17.0                                 
+        self.species       = "Pidgeotto"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Normal", "Flying"]                
+        self.level         = self.generateLevel(18, 35)           
+        self.hp            = 63                                 
+        self.attack        = 60                               
+        self.defense       = 55                                 
+        self.spAtk         = 50                               
+        self.spDef         = 50                             
+        self.speed         = 71                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Keen Eye", "Tangled Feet"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Big Pecks"                      
+        self.hidAbBool     = False   
 
+class pidgeot(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 18.0                                 
+        self.species       = "Pidgeot"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Normal", "Flying"]                
+        self.level         = self.generateLevel(36, 100)           
+        self.hp            = 83                                 
+        self.attack        = 80                                
+        self.defense       = 75                                
+        self.spAtk         = 70                               
+        self.spDef         = 70                             
+        self.speed         = 101                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Keen Eye", "Tangled Feet"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Big Pecks"                      
+        self.hidAbBool     = False   
+
+class rattata(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 19.0                                
+        self.species       = "Rattata"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Normal"]                
+        self.level         = self.generateLevel(1, 19)           
+        self.hp            = 30                                 
+        self.attack        = 56                              
+        self.defense       = 35                                 
+        self.spAtk         = 25                               
+        self.spDef         = 35                              
+        self.speed         = 72                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Run Away", "Guts"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Hustle"                      
+        self.hidAbBool     = False   
+        
+class alolanRattata(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 19.5                                
+        self.species       = "Alolan Rattata"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Dark", "Normal"]                
+        self.level         = self.generateLevel(1, 19)           
+        self.hp            = 30                                 
+        self.attack        = 56                              
+        self.defense       = 35                                 
+        self.spAtk         = 25                               
+        self.spDef         = 35                              
+        self.speed         = 72                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Gluttony", "Hustle"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Thick Fat"                      
+        self.hidAbBool     = False 
+        
+class raticate(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 20.0                                
+        self.species       = "Raticate"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Normal"]                
+        self.level         = self.generateLevel(20, 100)           
+        self.hp            = 55                              
+        self.attack        = 81                             
+        self.defense       = 60                                 
+        self.spAtk         = 50                              
+        self.spDef         = 70                             
+        self.speed         = 97                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Run Away", "Guts"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Hustle"                      
+        self.hidAbBool     = False 
+
+class alolanRaticate(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 20.5                              
+        self.species       = "Alolan Raticate"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Dark", "Normal"]                
+        self.level         = self.generateLevel(20, 100)           
+        self.hp            = 75                                
+        self.attack        = 71                              
+        self.defense       = 70                                
+        self.spAtk         = 40                               
+        self.spDef         = 80                              
+        self.speed         = 77                               
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Gluttony", "Hustle"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Thick Fat"                      
+        self.hidAbBool     = False 
+        
+class spearow(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 21.0                               
+        self.species       = "Spearow"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Normal", "Flying"]                
+        self.level         = self.generateLevel(1, 19)           
+        self.hp            = 40                                 
+        self.attack        = 60                              
+        self.defense       = 30                                 
+        self.spAtk         = 31                               
+        self.spDef         = 31                              
+        self.speed         = 70                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Keen Eye"                         
+        self.hiddenAbility = "Sniper"                      
+        self.hidAbBool     = False 
+        
+class fearow(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 22.0                               
+        self.species       = "Fearow"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Normal", "Flying"]                
+        self.level         = self.generateLevel(20, 100)           
+        self.hp            = 65                                 
+        self.attack        = 90                              
+        self.defense       = 65                                 
+        self.spAtk         = 61                               
+        self.spDef         = 61                             
+        self.speed         = 100                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Keen Eye"                         
+        self.hiddenAbility = "Sniper"                      
+        self.hidAbBool     = False 
+        
 class rhydon(pokemon):
     def __init__(self):
         self.pokedex       = 112
