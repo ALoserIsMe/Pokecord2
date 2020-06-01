@@ -1213,6 +1213,227 @@ class articuno(pokemon):
         self.hiddenAbility = "Flame Body"
         self.hidAbBool     = False
         
+        class nihilego(pokemon):
+    def __init__(self):
+        self.pokedex       = 793
+        self.species       = "Nihilego"
+        self.nature        = self.generateNature()
+        self.type          = ["Rock", "Poison"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 109
+        self.attack        = 53
+        self.defense       = 47
+        self.spAtk         = 127
+        self.spDef         = 131
+        self.speed         = 103
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Beast Boost"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+        class buzzwole(pokemon):
+    def __init__(self):
+        self.pokedex       = 794
+        self.species       = "Buzzwole"
+        self.nature        = self.generateNature()
+        self.type          = ["Bug", "Fight"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 107
+        self.attack        = 139
+        self.defense       = 139
+        self.spAtk         = 53
+        self.spDef         = 53
+        self.speed         = 79
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Beast Boost"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+        class pheromosa(pokemon):
+    def __init__(self):
+        self.pokedex       = 795
+        self.species       = "Pheromosa"
+        self.nature        = self.generateNature()
+        self.type          = ["Bug", "Fight"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 71
+        self.attack        = 137
+        self.defense       = 37
+        self.spAtk         = 137
+        self.spDef         = 37
+        self.speed         = 151
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Beast Boost"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+        class xurkitree(pokemon):
+    def __init__(self):
+        self.pokedex       = 796
+        self.species       = "Xurkitree"
+        self.nature        = self.generateNature()
+        self.type          = ["Electric"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 83
+        self.attack        = 89
+        self.defense       = 71
+        self.spAtk         = 173
+        self.spDef         = 71
+        self.speed         = 83
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Beast Boost"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+        class celesteela(pokemon):
+    def __init__(self):
+        self.pokedex       = 797
+        self.species       = "Celesteela"
+        self.nature        = self.generateNature()
+        self.type          = ["Steel", “Flying”]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 97
+        self.attack        = 101
+        self.defense       = 103
+        self.spAtk         = 107
+        self.spDef         = 101
+        self.speed         = 61
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Beast Boost"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+        class kartana(pokemon):
+    def __init__(self):
+        self.pokedex       = 798
+        self.species       = "Kartana"
+        self.nature        = self.generateNature()
+        self.type          = ["Grass", “Steel”]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 59
+        self.attack        = 181
+        self.defense       = 131
+        self.spAtk         = 59
+        self.spDef         = 31
+        self.speed         = 109
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Beast Boost"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+        class guzzlord(pokemon):
+    def __init__(self):
+        self.pokedex       = 799
+        self.species       = "Guzzlord"
+        self.nature        = self.generateNature()
+        self.type          = ["Dark", “Dragon”]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 223
+        self.attack        = 101
+        self.defense       = 53
+        self.spAtk         = 97
+        self.spDef         = 53
+        self.speed         = 43
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Beast Boost"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+        class Poipole(pokemon):
+    def __init__(self):
+        self.pokedex       = 803
+        self.species       = "Poipole"
+        self.nature        = self.generateNature()
+        self.type          = ["Poison"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 67
+        self.attack        = 73
+        self.defense       = 67
+        self.spAtk         = 73
+        self.spDef         = 67
+        self.speed         = 73
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Beast Boost"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+        class Naganadel(pokemon):
+    def __init__(self):
+        self.pokedex       = 804
+        self.species       = "Naganadel"
+        self.nature        = self.generateNature()
+        self.type          = ["Poison", “Dragon”]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 73
+        self.attack        = 73
+        self.defense       = 73
+        self.spAtk         = 127
+        self.spDef         = 73
+        self.speed         = 121
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Beast Boost"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+        class stakataka(pokemon):
+    def __init__(self):
+        self.pokedex       = 805
+        self.species       = "Stakataka"
+        self.nature        = self.generateNature()
+        self.type          = ["Rock", “Steel”]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 61
+        self.attack        = 131
+        self.defense       = 211
+        self.spAtk         = 53
+        self.spDef         = 101
+        self.speed         = 13
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Beast Boost"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+        class blacephalon(pokemon):
+    def __init__(self):
+        self.pokedex       = 806
+        self.species       = "Blacephalon"
+        self.nature        = self.generateNature()
+        self.type          = ["Fire", “Ghost”]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 53
+        self.attack        = 127
+        self.defense       = 53
+        self.spAtk         = 151
+        self.spDef         = 79
+        self.speed         = 107
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Beast Boost"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+        
+        
 #pokemon = flabebe()
 #pokemon.setNickname("Paul")
 #print(pokemon.getNickname())
