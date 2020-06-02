@@ -654,81 +654,45 @@ class fearow(pokemon):
         self.hidAbBool     = False 
         
 class ekans(pokemon):                                      
-
     def __init__(self): 
-
         self.pokedex       = 23.0                                 
-
         self.species       = "Ekans"                        
-
         self.nature        = self.generateNature()
-
         self.type          = ["Poison"]                
-
         self.level         = self.generateLevel(1, 21)           
-
         self.hp            = 35                                 
-
         self.attack        = 60                                
-
         self.defense       = 44                                 
-
         self.spAtk         = 40                                
-
         self.spDef         = 54                              
-
         self.speed         = 55                                 
-
         self.friend        = 70                                 
-
         self.gender        = self.generateGender(50)          
-
         self.abilities     = ["Intimidate", "Shed Skin"]                                 
-
         self.ability       = ""                         
-
         self.hiddenAbility = "Unnerve"                      
-
         self.hidAbBool     = False  
 
         
 
 class arbok(pokemon):                                      
-
     def __init__(self): 
-
         self.pokedex       = 24.0                                 
-
         self.species       = "Arbok"                        
-
         self.nature        = self.generateNature()
-
         self.type          = ["Poison"]                
-
         self.level         = self.generateLevel(1, 21)           
-
         self.hp            = 60                                 
-
         self.attack        = 95                                
-
         self.defense       = 69                                 
-
         self.spAtk         = 65                                
-
         self.spDef         = 79                              
-
         self.speed         = 80                                 
-
         self.friend        = 70                                 
-
         self.gender        = self.generateGender(50)          
-
         self.abilities     = ["Intimidate", "Shed Skin"]                                 
-
         self.ability       = ""                         
-
         self.hiddenAbility = "Unnerve"                      
-
         self.hidAbBool     = False  
 
         
