@@ -3058,7 +3058,47 @@ class gogoat(pokemon):
         self.hiddenAbility = "Grasse Pelt"
         self.hidAbBool     = False
         
-        class nihilego(pokemon):
+class typenull(pokemon):
+    def __init__(self):
+        self.pokedex       = 772.0
+        self.species       = "Type: Null"
+        self.nature        = self.generateNature()
+        self.type          = ["Normal"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 95
+        self.attack        = 95
+        self.defense       = 95
+        self.spAtk         = 95
+        self.spDef         = 95
+        self.speed         = 59
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Battle Armor"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class silvally(pokemon):
+    def __init__(self):
+        self.pokedex       = 773.0
+        self.species       = "Silvally"
+        self.nature        = self.generateNature()
+        self.type          = ["Normal"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 95
+        self.attack        = 95
+        self.defense       = 95
+        self.spAtk         = 95
+        self.spDef         = 95
+        self.speed         = 95
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "RKS System"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False 
+        
+class nihilego(pokemon):
     def __init__(self):
         self.pokedex       = 793.0
         self.species       = "Nihilego"
@@ -3078,7 +3118,7 @@ class gogoat(pokemon):
         self.hiddenAbility = ""
         self.hidAbBool     = False
 
-        class buzzwole(pokemon):
+class buzzwole(pokemon):
     def __init__(self):
         self.pokedex       = 794.0
         self.species       = "Buzzwole"
@@ -3098,7 +3138,7 @@ class gogoat(pokemon):
         self.hiddenAbility = ""
         self.hidAbBool     = False
 
-        class pheromosa(pokemon):
+class pheromosa(pokemon):
     def __init__(self):
         self.pokedex       = 795.0
         self.species       = "Pheromosa"
@@ -3118,7 +3158,7 @@ class gogoat(pokemon):
         self.hiddenAbility = ""
         self.hidAbBool     = False
 
-        class xurkitree(pokemon):
+class xurkitree(pokemon):
     def __init__(self):
         self.pokedex       = 796.0
         self.species       = "Xurkitree"
@@ -3138,7 +3178,7 @@ class gogoat(pokemon):
         self.hiddenAbility = ""
         self.hidAbBool     = False
 
-        class celesteela(pokemon):
+class celesteela(pokemon):
     def __init__(self):
         self.pokedex       = 797.0
         self.species       = "Celesteela"
@@ -3158,7 +3198,7 @@ class gogoat(pokemon):
         self.hiddenAbility = ""
         self.hidAbBool     = False
 
-        class kartana(pokemon):
+class kartana(pokemon):
     def __init__(self):
         self.pokedex       = 798.0
         self.species       = "Kartana"
@@ -3178,7 +3218,7 @@ class gogoat(pokemon):
         self.hiddenAbility = ""
         self.hidAbBool     = False
 
-        class guzzlord(pokemon):
+class guzzlord(pokemon):
     def __init__(self):
         self.pokedex       = 799.0
         self.species       = "Guzzlord"
@@ -3198,7 +3238,7 @@ class gogoat(pokemon):
         self.hiddenAbility = ""
         self.hidAbBool     = False
 
-        class poipole(pokemon):
+class poipole(pokemon):
     def __init__(self):
         self.pokedex       = 803.0
         self.species       = "Poipole"
@@ -3218,7 +3258,7 @@ class gogoat(pokemon):
         self.hiddenAbility = ""
         self.hidAbBool     = False
 
-        class naganadel(pokemon):
+class naganadel(pokemon):
     def __init__(self):
         self.pokedex       = 804.0
         self.species       = "Naganadel"
@@ -3238,7 +3278,7 @@ class gogoat(pokemon):
         self.hiddenAbility = ""
         self.hidAbBool     = False
 
-        class stakataka(pokemon):
+class stakataka(pokemon):
     def __init__(self):
         self.pokedex       = 805.0
         self.species       = "Stakataka"
@@ -3258,7 +3298,7 @@ class gogoat(pokemon):
         self.hiddenAbility = ""
         self.hidAbBool     = False
 
-        class blacephalon(pokemon):
+class blacephalon(pokemon):
     def __init__(self):
         self.pokedex       = 806.0
         self.species       = "Blacephalon"
@@ -3278,6 +3318,7 @@ class gogoat(pokemon):
         self.hiddenAbility = ""
         self.hidAbBool     = False
         
+ 
         
 #pokemon = flabebe()
 #pokemon.setNickname("Paul")
