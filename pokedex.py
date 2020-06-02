@@ -2498,6 +2498,86 @@ class onix(pokemon):
         self.hiddenAbility = "Weak Armor"
         self.hidAbBool     = False
         
+class drowzee(pokemon):
+    def __init__(self):
+        self.pokedex       = 96.0
+        self.species       = "Drowzee"
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic"]
+        self.level         = self.generateLevel(1, 25)
+        self.hp            = 60
+        self.attack        = 48
+        self.defense       = 45
+        self.spAtk         = 43
+        self.spDef         = 90
+        self.speed         = 42
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Insomnia", "Forewarn"]
+        self.ability       = ""
+        self.hiddenAbility = "Inner Focus"
+        self.hidAbBool     = False
+        
+class hypno(pokemon):
+    def __init__(self):
+        self.pokedex       = 97.0
+        self.species       = "Hypno"
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic"]
+        self.level         = self.generateLevel(26, 100)
+        self.hp            = 85
+        self.attack        = 73
+        self.defense       = 70
+        self.spAtk         = 73
+        self.spDef         = 115
+        self.speed         = 67
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Insomnia", "Forewarn"]
+        self.ability       = ""
+        self.hiddenAbility = "Inner Focus"
+        self.hidAbBool     = False
+        
+class krabby(pokemon):
+    def __init__(self):
+        self.pokedex       = 98.0
+        self.species       = "Krabby"
+        self.nature        = self.generateNature()
+        self.type          = ["Water"]
+        self.level         = self.generateLevel(1, 27)
+        self.hp            = 30
+        self.attack        = 105
+        self.defense       = 90
+        self.spAtk         = 25
+        self.spDef         = 25
+        self.speed         = 50
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Hyper Cutter", "Shell Armor"]
+        self.ability       = ""
+        self.hiddenAbility = "Sheer Force"
+        self.hidAbBool     = False
+        
+class kingler(pokemon):
+    def __init__(self):
+        self.pokedex       = 99.0
+        self.species       = "Kingler"
+        self.nature        = self.generateNature()
+        self.type          = ["Water"]
+        self.level         = self.generateLevel(28, 100)
+        self.hp            = 55
+        self.attack        = 130
+        self.defense       = 115
+        self.spAtk         = 50
+        self.spDef         = 50
+        self.speed         = 75
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Hyper Cutter", "Shell Armor"]
+        self.ability       = ""
+        self.hiddenAbility = "Sheer Force"
+        self.hidAbBool     = False
+        
 class rhydon(pokemon):
     def __init__(self):
         self.pokedex       = 112.0
