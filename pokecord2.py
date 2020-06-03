@@ -31,8 +31,10 @@ async def background_loop():
     while True:
         pokecord.spawnPokemon()
         channel = bot.get_channel(716961981579526308)
-#        await channel.send("```**A wild pokemon has appeared!** \nGuess the pokemon and type p!catch <pokemon> to catch it!\n" + str(pokecord.currentPokemon.getPokedex()) + "```")
-        await channel.send("**A wild pokemon has appeared!** \nGuess the pokemon and type p!catch <pokemon> to catch it!\n" + str(pokecord.currentPokemon.getPokedex()))
+        filename = str(pokecord.currentPokemon.getPokedex()) + ".png"
+        with open(filename, 'rb') as f:
+            picture = discord.File(f)
+            await channel.send("**A wild pokemon has appeared!** \nGuess the pokemon and type p!catch <pokemon> to catch it!\n", picture))
 
         time = random.randint(mins5, mins30)
         print("Waiting", time, "seconds")
