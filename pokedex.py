@@ -17,6 +17,7 @@ class pokemon:
         self.spDef         = 0
         self.speed         = 0
         self.friend        = 0
+        self.experience    = 0
         self.gender        = False
         self.abilities     = []
         self.ability       = ""
