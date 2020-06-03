@@ -60,4 +60,4 @@ async def on_guild_join():
     print(Guild.name)
 
 bot.loop.create_task(background_loop())
-bot.run("NzE3MDY4Mjc3NjY2MjgzNTUx.XtVX_Q.ljn3RE4DCR-yUp6kpaoI6XJU3qQ", bot=True)
+bot.run("TOKEN", bot=True)
