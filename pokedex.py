@@ -9,6 +9,7 @@ class pokemon:
         self.nature        = ""
         self.nickname      = ""
         self.type          = []
+        self.maxLevel      = 0
         self.level         = 0
         self.hp            = 0
         self.attack        = 0
@@ -23,7 +24,6 @@ class pokemon:
         self.ability       = ""
         self.hiddenAbility = ""
         self.hidAbBool     = False
-        self.maxLevel      = 0
 
     def generateNature(self):
         natures = ["Hardy", "Lonely", "Brave", "Adamant", "Naughty", "Bold", "Docile", "Relaxed", "Impish", "Lax", "Timid", "Hasty", "Serious", "Jolly", "Naive", "Modest", "Mild", "Quiet", "Bashful", "Rash", "Calm", "Gentle", "Sassy", "Careful", "Quirky"]
@@ -155,25 +155,26 @@ class pokemon:
         elif self.nature == "Naughty" or self.nature == "Lax" or self.nature == "Naive" or self.nature == "Rash":
             return "Bitter"       
 
-class missingNo(pokemon):                                       # Pokemon name beginning with lower case. Subsequent words are capitalized on the first letter
+class missingNo(pokemon):                                            # Pokemon name beginning with lower case. Subsequent words are capitalized on the first letter
     def __init__(self): 
-        self.pokedex       = 0                                  # Pokedex number
-        self.species       = "MissingNo"                        # Pokemon name with first letter capitalized
+        self.pokedex       = 0                                       # Pokedex number
+        self.species       = "MissingNo"                             # Pokemon name with first letter capitalized
         self.nature        = self.generateNature()
-        self.type          = ["Bird", "Normal"]                 # Pokemon types
-        self.level         = self.generateLevel(1, 15)          # Level the pokemon evolveds from, one less than the level the pokemon evolves at
-        self.hp            = 45                                 # base hp
-        self.attack        = 49                                 # base attack
-        self.defense       = 49                                 # base defense
-        self.spAtk         = 65                                 # base special attack
-        self.spDef         = 65                                 # base special defense
-        self.speed         = 45                                 # base speed
-        self.friend        = 70                                 # base friend
-        self.gender        = self.generateGender(87.5)          # chance for male
-        self.abilities     = []                                 # list of abilities
-        self.ability       = "Overgrow"                         # selected ability
-        self.hiddenAbility = "Chlorophyll"                      # Hidden Ability
-        self.hidAbBool     = False                              # Leave as False
+        self.type          = ["Bird", "Normal"]                      # Pokemon types
+        self.maxLevel      = 16                                      # The level which this pokemon evolves
+        self.level         = self.generateLevel(1, self.maxLevel-1)  # Level the pokemon evolveds from, one less than the level the pokemon evolves at
+        self.hp            = 45                                      # base hp
+        self.attack        = 49                                      # base attack
+        self.defense       = 49                                      # base defense
+        self.spAtk         = 65                                      # base special attack
+        self.spDef         = 65                                      # base special defense
+        self.speed         = 45                                      # base speed
+        self.friend        = 70                                      # base friend
+        self.gender        = self.generateGender(87.5)               # chance for male
+        self.abilities     = []                                      # list of abilities
+        self.ability       = "Overgrow"                              # selected ability
+        self.hiddenAbility = "Chlorophyll"                           # Hidden Ability
+        self.hidAbBool     = False                                   # Leave as False
 
 class bulbasaur(pokemon):
     def __init__(self):
@@ -181,7 +182,8 @@ class bulbasaur(pokemon):
         self.species       = "Bulbasaur"
         self.nature        = self.generateNature()
         self.type          = ["Grass", "Poison"]
-        self.level         = self.generateLevel(1, 15)
+        self.maxLevel      = 16
+        self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 45
         self.attack        = 49
         self.defense       = 49
@@ -201,7 +203,8 @@ class ivysaur(pokemon):
         self.species       = "Ivysaur"
         self.nature        = self.generateNature()
         self.type          = ["Grass", "Poison"]
-        self.level         = self.generateLevel(16, 31)
+        self.maxLevel      = 32
+        self.level         = self.generateLevel(16, self.maxLevel - 1)
         self.hp            = 60
         self.attack        = 62
         self.defense       = 63
@@ -221,7 +224,8 @@ class venusaur(pokemon):
         self.species       = "Venusaur"
         self.nature        = self.generateNature()
         self.type          = ["Grass", "Poison"]
-        self.level         = self.generateLevel(32, 100)
+        self.maxLevel      = 100
+        self.level         = self.generateLevel(32, self.maxLevel)
         self.hp            = 80
         self.attack        = 82
         self.defense       = 83
@@ -241,7 +245,8 @@ class charmander(pokemon):
         self.species       = "Charmander"
         self.nature        = self.generateNature()
         self.type          = ["Fire"]
-        self.level         = self.generateLevel(1, 15)
+        self.maxLevel      = 16
+        self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 39
         self.attack        = 52
         self.defense       = 43
@@ -261,7 +266,8 @@ class charmeleon(pokemon):
         self.species       = "Charmeleon"
         self.nature        = self.generateNature()
         self.type          = ["Fire"]
-        self.level         = self.generateLevel(16, 35)
+        self.maxLevel      = 36
+        self.level         = self.generateLevel(16, self.maxLevel -1)
         self.hp            = 58
         self.attack        = 64
         self.defense       = 58
@@ -281,7 +287,8 @@ class charizard(pokemon):
         self.species       = "Charizard"
         self.nature        = self.generateNature()
         self.type          = ["Fire"]
-        self.level         = self.generateLevel(36, 100)
+        self.maxLevel      = 100
+        self.level         = self.generateLevel(36, self.maxLevel)
         self.hp            = 78
         self.attack        = 84
         self.defense       = 78
@@ -301,7 +308,8 @@ class squirtle(pokemon):
         self.species       = "Squirtle"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(1, 15)
+        self.maxLevel      = 16
+        self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 44
         self.attack        = 48
         self.defense       = 65
@@ -321,7 +329,8 @@ class wartortle(pokemon):
         self.species       = "Wartortle"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(16, 35)
+        self.maxLevel      = 36
+        self.level         = self.generateLevel(16, self.maxLevel - 1)
         self.hp            = 59
         self.attack        = 63
         self.defense       = 80
@@ -341,7 +350,8 @@ class blastoise(pokemon):
         self.species       = "Blastoise"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(36, 100)
+        self.maxLevel      = 100
+        self.level         = self.generateLevel(36, self.maxLevel)
         self.hp            = 79
         self.attack        = 83
         self.defense       = 100
