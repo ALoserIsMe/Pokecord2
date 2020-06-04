@@ -2590,6 +2590,226 @@ class kingler(pokemon):
         self.hiddenAbility = "Sheer Force"
         self.hidAbBool     = False
         
+class voltorb(pokemon):
+    def __init__(self):
+        self.pokedex       = 100.0
+        self.species       = "Voltorb"
+        self.nature        = self.generateNature()
+        self.type          = ["Electric"]
+        self.level         = self.generateLevel(1, 29)
+        self.hp            = 40
+        self.attack        = 30
+        self.defense       = 50
+        self.spAtk         = 55
+        self.spDef         = 55
+        self.speed         = 100
+        self.friend        = 70
+        self.gender        = self.generateGender(0)
+        self.abilities     = ["Soundproof", "Static"]
+        self.ability       = ""
+        self.hiddenAbility = "Aftermath"
+        self.hidAbBool     = False
+        
+class electrode(pokemon):
+    def __init__(self):
+        self.pokedex       = 101.0
+        self.species       = "Electrode"
+        self.nature        = self.generateNature()
+        self.type          = ["Electric"]
+        self.level         = self.generateLevel(30, 100)
+        self.hp            = 60
+        self.attack        = 50
+        self.defense       = 70
+        self.spAtk         = 80
+        self.spDef         = 80
+        self.speed         = 150
+        self.friend        = 70
+        self.gender        = self.generateGender(0)
+        self.abilities     = ["Soundproof", "Static"]
+        self.ability       = ""
+        self.hiddenAbility = "Aftermath"
+        self.hidAbBool     = False
+        
+class exeggcute(pokemon):
+    def __init__(self):
+        self.pokedex       = 102.0
+        self.species       = "Exeggcute"
+        self.nature        = self.generateNature()
+        self.type          = ["Grass", "Psychic"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 60
+        self.attack        = 40
+        self.defense       = 80
+        self.spAtk         = 60
+        self.spDef         = 45
+        self.speed         = 40
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = []
+        self.ability       = "Chlorophyll"
+        self.hiddenAbility = "Harvest"
+        self.hidAbBool     = False
+        
+class exeggutor(pokemon):
+    def __init__(self):
+        self.pokedex       = 103.0
+        self.species       = "Exeggutor"
+        self.nature        = self.generateNature()
+        self.type          = ["Grass", "Psychic"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 95
+        self.attack        = 95
+        self.defense       = 85
+        self.spAtk         = 125
+        self.spDef         = 75
+        self.speed         = 55
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = []
+        self.ability       = "Chlorophyll"
+        self.hiddenAbility = "Harvest"
+        self.hidAbBool     = False
+        
+class alolanExeggutor(pokemon):
+    def __init__(self):
+        self.pokedex       = 103.5
+        self.species       = "Alolan Exeggutor"
+        self.nature        = self.generateNature()
+        self.type          = ["Grass", "Dragon"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 95
+        self.attack        = 105
+        self.defense       = 85
+        self.spAtk         = 125
+        self.spDef         = 75
+        self.speed         = 45
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = []
+        self.ability       = "Frisk"
+        self.hiddenAbility = "Harvest"
+        self.hidAbBool     = False
+        
+class cubone(pokemon):
+    def __init__(self):
+        self.pokedex       = 104.0
+        self.species       = "Cubone"
+        self.nature        = self.generateNature()
+        self.type          = ["Ground"]
+        self.level         = self.generateLevel(1, 27)
+        self.hp            = 50
+        self.attack        = 50
+        self.defense       = 95
+        self.spAtk         = 40
+        self.spDef         = 50
+        self.speed         = 35
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Rock Head", "Lightning Rod"]
+        self.ability       = ""
+        self.hiddenAbility = "Battle Armor"
+        self.hidAbBool     = False
+        
+class marowak(pokemon):
+    def __init__(self):
+        self.pokedex       = 105.0
+        self.species       = "Marowak"
+        self.nature        = self.generateNature()
+        self.type          = ["Ground"]
+        self.level         = self.generateLevel(28, 100)
+        self.hp            = 60
+        self.attack        = 80
+        self.defense       = 110
+        self.spAtk         = 50
+        self.spDef         = 80
+        self.speed         = 45
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Rock Head", "Lightning Rod"]
+        self.ability       = ""
+        self.hiddenAbility = "Battle Armor"
+        self.hidAbBool     = False
+        
+class alolanMarowak(pokemon):
+    def __init__(self):
+        self.pokedex       = 105.5
+        self.species       = "Alolan Marowak"
+        self.nature        = self.generateNature()
+        self.type          = ["Fire", "Ghost"]
+        self.level         = self.generateLevel(28, 100)
+        self.hp            = 60
+        self.attack        = 80
+        self.defense       = 110
+        self.spAtk         = 50
+        self.spDef         = 80
+        self.speed         = 45
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Cursed Body", "Lightning Rod"]
+        self.ability       = ""
+        self.hiddenAbility = "Rock Head"
+        self.hidAbBool     = False
+        
+class hitmonlee(pokemon):
+    def __init__(self):
+        self.pokedex       = 106.0
+        self.species       = "Hitmonlee"
+        self.nature        = self.generateNature()
+        self.type          = ["Fighting"]
+        self.level         = self.generateLevel(20, 100)
+        self.hp            = 50
+        self.attack        = 120
+        self.defense       = 53
+        self.spAtk         = 35
+        self.spDef         = 110
+        self.speed         = 87
+        self.friend        = 70
+        self.gender        = self.generateGender(100)
+        self.abilities     = ["Limber", "Reckless"]
+        self.ability       = ""
+        self.hiddenAbility = "Unburden"
+        self.hidAbBool     = False
+        
+class hitmonchan(pokemon):
+    def __init__(self):
+        self.pokedex       = 107.0
+        self.species       = "Hitmonchan"
+        self.nature        = self.generateNature()
+        self.type          = ["Fighting"]
+        self.level         = self.generateLevel(20, 100)
+        self.hp            = 50
+        self.attack        = 105
+        self.defense       = 79
+        self.spAtk         = 35
+        self.spDef         = 110
+        self.speed         = 76
+        self.friend        = 70
+        self.gender        = self.generateGender(100)
+        self.abilities     = ["Keen Eye", "Iron Fist"]
+        self.ability       = ""
+        self.hiddenAbility = "Inner Focus"
+        self.hidAbBool     = False
+        
+class lickitung(pokemon):
+    def __init__(self):
+        self.pokedex       = 108.0
+        self.species       = "Lickitung"
+        self.nature        = self.generateNature()
+        self.type          = ["Normal"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 90
+        self.attack        = 55
+        self.defense       = 75
+        self.spAtk         = 60
+        self.spDef         = 75
+        self.speed         = 30
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Own Tempo", "Oblivious"]
+        self.ability       = ""
+        self.hiddenAbility = "Cloud Nine"
+        self.hidAbBool     = False
+        
 class rhydon(pokemon):
     def __init__(self):
         self.pokedex       = 112.0
