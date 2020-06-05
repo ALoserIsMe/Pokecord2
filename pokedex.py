@@ -3650,7 +3650,6 @@ class dragonair(pokemon):
         self.hiddenAbility = "Marvel Scale"
         self.hidAbBool     = False
         
- class dragonite(pokemon):
     def __init__(self):
         self.pokedex       = 149.0
         self.species       = "Dragonite"
