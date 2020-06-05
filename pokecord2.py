@@ -1,10 +1,9 @@
 from discord.ext import commands
 from pokedex  import *
+import discord
 import asyncio
 import random
 import time
-
-players = []
 
 # Stores the current pokemon, as well as spawning a new one
 class pokecord2:
@@ -13,6 +12,9 @@ class pokecord2:
         self.caught = False
 
         self.allPokemon = [bulbasaur(), charmander(), squirtle()]
+        self.starterPokemon = [bulbasaur(), charmander(), squirtle(), chikorita(), cyndaquil(), totodile(), treecko(), torchic(), mudkip(), turtwig(), chimchar(), piplup(), snivy(), tepig(), oshawott(), chespin(), fennekin(), froakie(), rowlett(), litten(), popplio(), grookey(), scorbunny(), sobble()]
+
+        self.players = {}
 
     def spawnPokemon(self):
         self.currentPokemon = random.choice(self.allPokemon)
@@ -31,10 +33,10 @@ async def background_loop():
     while True:
         pokecord.spawnPokemon()
         channel = bot.get_channel(716961981579526308)
-        filename = str(pokecord.currentPokemon.getPokedex()) + ".png"
+        filename = "images/" + str(pokecord.currentPokemon.getPokedex()) + ".png"
         with open(filename, 'rb') as f:
             picture = discord.File(f)
-            await channel.send("**A wild pokemon has appeared!** \nGuess the pokemon and type p!catch <pokemon> to catch it!\n", picture))
+            await channel.send("**A wild pokemon has appeared!** \nGuess the pokemon and type p!catch <pokemon> to catch it!\n", file= picture)
 
         time = random.randint(mins5, mins30)
         print("Waiting", time, "seconds")
@@ -52,6 +54,12 @@ async def catch(ctx, arg):
             await ctx.send("That is the wrong pokemon.")
     else:
         await ctx.send("The pokemon has already been caught")
+@bot.command()
+async def pick(ctx, arg):
+    if arg.lower() in pokecord.starterPokemon:
+        await ctx.send("Starter pokemon " + arg + " picked.")
+    else:
+        await ctx.send("That is not a valid starter pokemon.")
 
 @bot.event
 async def on_ready():
