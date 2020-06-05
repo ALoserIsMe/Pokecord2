@@ -1,6 +1,14 @@
+# Custom classes
+from pokedex import *
+from player  import *
+
+# Discord imports
 from discord.ext import commands
-from pokedex  import *
 import discord
+# Both discord and discord.ext are required as far as I'm aware
+# Some features don't work without discord, whereas the bot mostly uses discord.ext
+
+# Miscellaneous imports
 import asyncio
 import random
 import time
@@ -26,18 +34,21 @@ bot = commands.Bot(command_prefix = "p!")
 
 # Spawns a pokemon, then waits between 5 and 30 mins before repeating
 async def background_loop():
-    mins5  = 300
-    mins30 = 1800
+    mins5  = 300        # Minimum time
+    mins30 = 1800       # Maximim time
     await bot.wait_until_ready()
     print("background loop ready")
     while True:
         pokecord.spawnPokemon()
         channel = bot.get_channel(716961981579526308)
+
+        # Sends image of the pokemon
         filename = "images/" + str(pokecord.currentPokemon.getPokedex()) + ".png"
         with open(filename, 'rb') as f:
             picture = discord.File(f)
             await channel.send("**A wild pokemon has appeared!** \nGuess the pokemon and type p!catch <pokemon> to catch it!\n", file= picture)
 
+        # Waits a random amount of time between the minimum time and maximum time
         time = random.randint(mins5, mins30)
         print("Waiting", time, "seconds")
         await asyncio.sleep(time)
@@ -54,12 +65,16 @@ async def catch(ctx, arg):
             await ctx.send("That is the wrong pokemon.")
     else:
         await ctx.send("The pokemon has already been caught")
+        
 @bot.command()
 async def pick(ctx, arg):
-    if arg.lower() in pokecord.starterPokemon:
-        await ctx.send("Starter pokemon " + arg + " picked.")
-    else:
-        await ctx.send("That is not a valid starter pokemon.")
+    for x in range(len(pokecord.starterPokemon)):
+        if pokecord.starterPokemon.getSpecies().lower() == arg:                                             # I know this is a mess. TODO: Tidy it up
+            await ctx.send("Starter pokemon " + pokecord.starterPokemon.getSpecies() + " picked.")
+            print(arg.author.id)
+            pokecord.update({arg.author.id : player(arg.author.id, pokecord.starterPokemon[x])})
+        else:
+            await ctx.send("That is not a valid starter pokemon.")
 
 @bot.event
 async def on_ready():
