@@ -4582,6 +4582,246 @@ class oshawott(pokemon):
         self.hiddenAbility = "Shell Armor"
         self.hidAbBool     = False
 
+class cobalion(pokemon):
+    def __init__(self):
+        self.pokedex       = 638
+        self.species       = "Coballion"
+        self.nature        = self.generateNature()
+        self.type          = ["Steel", "Fight"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 91
+        self.attack        = 90
+        self.defense       = 129
+        self.spAtk         = 90
+        self.spDef         = 72
+        self.speed         = 108
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Justified"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class terrakion(pokemon):
+    def __init__(self):
+        self.pokedex       = 639
+        self.species       = "Terrakion"
+        self.nature        = self.generateNature()
+        self.type          = ["Rock", "Fight"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 91
+        self.attack        = 129
+        self.defense       = 90
+        self.spAtk         = 72
+        self.spDef         = 90
+        self.speed         = 108
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Justified"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class virizion(pokemon):
+    def __init__(self):
+        self.pokedex       = 640
+        self.species       = "Virizion"
+        self.nature        = self.generateNature()
+        self.type          = ["Grass", "Fight"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 91
+        self.attack        = 90
+        self.defense       = 72
+        self.spAtk         = 90
+        self.spDef         = 129
+        self.speed         = 108
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Justified"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class tornadus(pokemon):
+    def __init__(self):
+        self.pokedex       = 641
+        self.species       = "Tornadus"
+        self.nature        = self.generateNature()
+        self.type          = ["Flying"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 79
+        self.attack        = 115
+        self.defense       = 70
+        self.spAtk         = 125
+        self.spDef         = 80
+        self.speed         = 111
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Prankster"
+        self.hiddenAbility = "Defiant"
+        self.hidAbBool     = False
+
+class thundurus(pokemon):
+    def __init__(self):
+        self.pokedex       = 642
+        self.species       = "Thundurus"
+        self.nature        = self.generateNature()
+        self.type          = ["Electric", "Flying"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 79
+        self.attack        = 115
+        self.defense       = 70
+        self.spAtk         = 125
+        self.spDef         = 80
+        self.speed         = 111
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Prankster"
+        self.hiddenAbility = "Defiant"
+        self.hidAbBool     = False
+
+class reshiram(pokemon):
+    def __init__(self):
+        self.pokedex       = 643
+        self.species       = "Reshiram"
+        self.nature        = self.generateNature()
+        self.type          = ["Dragon", "Fire"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 100
+        self.attack        = 120
+        self.defense       = 100
+        self.spAtk         = 150
+        self.spDef         = 120
+        self.speed         = 90
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Turboblaze"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class zekrom(pokemon):
+    def __init__(self):
+        self.pokedex       = 644
+        self.species       = "Zekrom"
+        self.nature        = self.generateNature()
+        self.type          = ["Dragon", "Electric"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 100
+        self.attack        = 150
+        self.defense       = 120
+        self.spAtk         = 120
+        self.spDef         = 100
+        self.speed         = 90
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Terabolt"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class landorus(pokemon):
+    def __init__(self):
+        self.pokedex       = 645
+        self.species       = "Landorus"
+        self.nature        = self.generateNature()
+        self.type          = ["Electric", "Flying"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 89
+        self.attack        = 125
+        self.defense       = 90
+        self.spAtk         = 115
+        self.spDef         = 80
+        self.speed         = 101
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Sand Force"
+        self.hiddenAbility = "Sheer Force"
+        self.hidAbBool     = False
+
+class kyurem(pokemon):
+    def __init__(self):
+        self.pokedex       = 646
+        self.species       = "Kyurem"
+        self.nature        = self.generateNature()
+        self.type          = ["Dragon", "Ice"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 125
+        self.attack        = 130
+        self.defense       = 90
+        self.spAtk         = 130
+        self.spDef         = 90
+        self.speed         = 95
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Pressure"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class keldeo(pokemon):
+    def __init__(self):
+        self.pokedex       = 647
+        self.species       = "Keldeo"
+        self.nature        = self.generateNature()
+        self.type          = ["Water", "Fight"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 91
+        self.attack        = 72
+        self.defense       = 90
+        self.spAtk         = 129
+        self.spDef         = 90
+        self.speed         = 108
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Justified"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class meloetta(pokemon):
+    def __init__(self):
+        self.pokedex       = 648
+        self.species       = "Meloetta"
+        self.nature        = self.generateNature()
+        self.type          = ["Normal", "Psychic"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 100
+        self.attack        = 77
+        self.defense       = 77
+        self.spAtk         = 128
+        self.spDef         = 128
+        self.speed         = 90
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Serene Grace"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class genesect(pokemon):
+    def __init__(self):
+        self.pokedex       = 649
+        self.species       = "Genesect"
+        self.nature        = self.generateNature()
+        self.type          = ["Bug", "Steel"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 71
+        self.attack        = 120
+        self.defense       = 95
+        self.spAtk         = 120
+        self.spDef         = 95
+        self.speed         = 99
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Download"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
 class chespin(pokemon):
     def __init__(self):
         self.pokedex       = 650.0
@@ -5062,6 +5302,126 @@ class gogoat(pokemon):
         self.hiddenAbility = "Grasse Pelt"
         self.hidAbBool     = False
 
+class xerneas(pokemon):
+    def __init__(self):
+        self.pokedex       = 716
+        self.species       = "Xerneas"
+        self.nature        = self.generateNature()
+        self.type          = ["Fairy"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 126
+        self.attack        = 131
+        self.defense       = 95
+        self.spAtk         = 131
+        self.spDef         = 98
+        self.speed         = 99
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Fairy Aura"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class yveltal(pokemon):
+    def __init__(self):
+        self.pokedex       = 717
+        self.species       = "Yveltal"
+        self.nature        = self.generateNature()
+        self.type          = ["Dark", "Flying"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 126
+        self.attack        = 131
+        self.defense       = 95
+        self.spAtk         = 131
+        self.spDef         = 98
+        self.speed         = 99
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Dark Aura"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class zygarde(pokemon):
+    def __init__(self):
+        self.pokedex       = 718
+        self.species       = "Zygarde"
+        self.nature        = self.generateNature()
+        self.type          = ["Dragon", "Ground"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 108
+        self.attack        = 100
+        self.defense       = 121
+        self.spAtk         = 81
+        self.spDef         = 95
+        self.speed         = 95
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Aura Break"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class diancie(pokemon):
+    def __init__(self):
+        self.pokedex       = 719
+        self.species       = "Diancie"
+        self.nature        = self.generateNature()
+        self.type          = ["Rock", "Fairy"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 50
+        self.attack        = 160
+        self.defense       = 110
+        self.spAtk         = 160
+        self.spDef         = 110
+        self.speed         = 110
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Clear Body"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class hoopa(pokemon):
+    def __init__(self):
+        self.pokedex       = 720
+        self.species       = "Hoopa"
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic", "Ghost"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 80
+        self.attack        = 110
+        self.defense       = 60
+        self.spAtk         = 150
+        self.spDef         = 130
+        self.speed         = 70
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Magician"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class volcanion(pokemon):
+    def __init__(self):
+        self.pokedex       = 721
+        self.species       = "Volcanion"
+        self.nature        = self.generateNature()
+        self.type          = ["Fire", "Water"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 80
+        self.attack        = 110
+        self.defense       = 120
+        self.spAtk         = 130
+        self.spDef         = 90
+        self.speed         = 70
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Water Absorb"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
 class rowlett(pokemon):
     def __init__(self):
         self.pokedex       = 722.0
@@ -5284,7 +5644,87 @@ class tapuFini(pokemon):
         self.ability       = "Misty Surge"
         self.hiddenAbility = "Telepathy"
         self.hidAbBool     = False
-        
+
+class cosmog(pokemon):
+    def __init__(self):
+        self.pokedex       = 789
+        self.species       = "Cosmog"
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 43
+        self.attack        = 29
+        self.defense       = 31
+        self.spAtk         = 29
+        self.spDef         = 31
+        self.speed         = 37
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Unaware"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class cosmoem(pokemon):
+    def __init__(self):
+        self.pokedex       = 790.0
+        self.species       = "Cosmoem"
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 43
+        self.attack        = 29
+        self.defense       = 131
+        self.spAtk         = 29
+        self.spDef         = 131
+        self.speed         = 37
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Sturdy"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class solgaleo(pokemon):
+    def __init__(self):
+        self.pokedex       = 791.0
+        self.species       = "Solgaleo"
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic", "Steel"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 137
+        self.attack        = 137
+        self.defense       = 107
+        self.spAtk         = 113
+        self.spDef         = 89
+        self.speed         = 97
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Full Metal Body"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class lunala(pokemon):
+    def __init__(self):
+        self.pokedex       = 792.0
+        self.species       = "Lunala"
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic", "Ghost"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 137
+        self.attack        = 113
+        self.defense       = 89
+        self.spAtk         = 137
+        self.spDef         = 107
+        self.speed         = 97
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Shadow Shield"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
 class nihilego(pokemon):
     def __init__(self):
         self.pokedex       = 793.0
@@ -5424,6 +5864,66 @@ class guzzlord(pokemon):
         self.ability       = "Beast Boost"
         self.hiddenAbility = ""
         self.hidAbBool     = False
+        
+class necrozma(pokemon):
+    def __init__(self):
+        self.pokedex       = 800
+        self.species       = "Necrozma"
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 97
+        self.attack        = 107
+        self.defense       = 101
+        self.spAtk         = 127
+        self.spDef         = 89
+        self.speed         = 79
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Prism Armor"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class magearna(pokemon):
+    def __init__(self):
+        self.pokedex       = 801
+        self.species       = "Magearna"
+        self.nature        = self.generateNature()
+        self.type          = ["Steel", "Fairy"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 80
+        self.attack        = 95
+        self.defense       = 115
+        self.spAtk         = 130
+        self.spDef         = 115
+        self.speed         = 65
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Soul-Heart"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class marshadow(pokemon):
+    def __init__(self):
+        self.pokedex       = 802
+        self.species       = "Marshadow"
+        self.nature        = self.generateNature()
+        self.type          = ["Fight", "Ghost"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 90
+        self.attack        = 125
+        self.defense       = 80
+        self.spAtk         = 90
+        self.spDef         = 90
+        self.speed         = 125
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Technician"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
 
 class poipole(pokemon):
     def __init__(self):
@@ -5504,7 +6004,67 @@ class blacephalon(pokemon):
         self.ability       = "Beast Boost"
         self.hiddenAbility = ""
         self.hidAbBool     = False
-        
+
+class zeraora(pokemon):
+    def __init__(self):
+        self.pokedex       = 807
+        self.species       = "Zeraora"
+        self.nature        = self.generateNature()
+        self.type          = ["Electric"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 88
+        self.attack        = 112
+        self.defense       = 75
+        self.spAtk         = 102
+        self.spDef         = 80
+        self.speed         = 143
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Volt Absorb"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class meltan(pokemon):
+    def __init__(self):
+        self.pokedex       = 808
+        self.species       = "Meltan"
+        self.nature        = self.generateNature()
+        self.type          = ["Steel"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 46
+        self.attack        = 65
+        self.defense       = 65
+        self.spAtk         = 55
+        self.spDef         = 35
+        self.speed         = 34
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Magnet Pull"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class melmetal(pokemon):
+    def __init__(self):
+        self.pokedex       = 809
+        self.species       = "Melmetal"
+        self.nature        = self.generateNature()
+        self.type          = ["Steel"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 135
+        self.attack        = 143
+        self.defense       = 143
+        self.spAtk         = 80
+        self.spDef         = 65
+        self.speed         = 34
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Iron Fist"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
 class grookey(pokemon):
     def __init__(self):
         self.pokedex       = 810.0
@@ -5566,786 +6126,6 @@ class sobble(pokemon):
         self.abilities     = []
         self.ability       = "Torrent"
         self.hiddenAbility = "Sniper"
-        self.hidAbBool     = False
-
-class cobalion(pokemon):
-    def __init__(self):
-        self.pokedex       = 638
-        self.species       = "Coballion"
-        self.nature        = self.generateNature()
-        self.type          = ["Steel", "Fight"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 91
-        self.attack        = 90
-        self.defense       = 129
-        self.spAtk         = 90
-        self.spDef         = 72
-        self.speed         = 108
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Justified"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class terrakion(pokemon):
-    def __init__(self):
-        self.pokedex       = 639
-        self.species       = "Terrakion"
-        self.nature        = self.generateNature()
-        self.type          = ["Rock", "Fight"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 91
-        self.attack        = 129
-        self.defense       = 90
-        self.spAtk         = 72
-        self.spDef         = 90
-        self.speed         = 108
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Justified"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class virizion(pokemon):
-    def __init__(self):
-        self.pokedex       = 640
-        self.species       = "Virizion"
-        self.nature        = self.generateNature()
-        self.type          = ["Grass", "Fight"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 91
-        self.attack        = 90
-        self.defense       = 72
-        self.spAtk         = 90
-        self.spDef         = 129
-        self.speed         = 108
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Justified"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class tornadus(pokemon):
-    def __init__(self):
-        self.pokedex       = 641
-        self.species       = "Tornadus"
-        self.nature        = self.generateNature()
-        self.type          = ["Flying"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 79
-        self.attack        = 115
-        self.defense       = 70
-        self.spAtk         = 125
-        self.spDef         = 80
-        self.speed         = 111
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Prankster"
-        self.hiddenAbility = "Defiant"
-        self.hidAbBool     = False
-
-class thundurus(pokemon):
-    def __init__(self):
-        self.pokedex       = 642
-        self.species       = "Thundurus"
-        self.nature        = self.generateNature()
-        self.type          = ["Electric", "Flying"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 79
-        self.attack        = 115
-        self.defense       = 70
-        self.spAtk         = 125
-        self.spDef         = 80
-        self.speed         = 111
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Prankster"
-        self.hiddenAbility = "Defiant"
-        self.hidAbBool     = False
-
-class reshiram(pokemon):
-    def __init__(self):
-        self.pokedex       = 643
-        self.species       = "Reshiram"
-        self.nature        = self.generateNature()
-        self.type          = ["Dragon", "Fire"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 100
-        self.attack        = 120
-        self.defense       = 100
-        self.spAtk         = 150
-        self.spDef         = 120
-        self.speed         = 90
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Turboblaze"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class zekrom(pokemon):
-    def __init__(self):
-        self.pokedex       = 644
-        self.species       = "Zekrom"
-        self.nature        = self.generateNature()
-        self.type          = ["Dragon", "Electric"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 100
-        self.attack        = 150
-        self.defense       = 120
-        self.spAtk         = 120
-        self.spDef         = 100
-        self.speed         = 90
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Terabolt"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class landorus(pokemon):
-    def __init__(self):
-        self.pokedex       = 645
-        self.species       = "Landorus"
-        self.nature        = self.generateNature()
-        self.type          = ["Electric", "Flying"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 89
-        self.attack        = 125
-        self.defense       = 90
-        self.spAtk         = 115
-        self.spDef         = 80
-        self.speed         = 101
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Sand Force"
-        self.hiddenAbility = "Sheer Force"
-        self.hidAbBool     = False
-
-class kyurem(pokemon):
-    def __init__(self):
-        self.pokedex       = 646
-        self.species       = "Kyurem"
-        self.nature        = self.generateNature()
-        self.type          = ["Dragon", "Ice"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 125
-        self.attack        = 130
-        self.defense       = 90
-        self.spAtk         = 130
-        self.spDef         = 90
-        self.speed         = 95
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Pressure"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class keldeo(pokemon):
-    def __init__(self):
-        self.pokedex       = 647
-        self.species       = "Keldeo"
-        self.nature        = self.generateNature()
-        self.type          = ["Water", "Fight"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 91
-        self.attack        = 72
-        self.defense       = 90
-        self.spAtk         = 129
-        self.spDef         = 90
-        self.speed         = 108
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Justified"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class meloetta(pokemon):
-    def __init__(self):
-        self.pokedex       = 648
-        self.species       = "Meloetta"
-        self.nature        = self.generateNature()
-        self.type          = ["Normal", "Psychic"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 100
-        self.attack        = 77
-        self.defense       = 77
-        self.spAtk         = 128
-        self.spDef         = 128
-        self.speed         = 90
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Serene Grace"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class genesect(pokemon):
-    def __init__(self):
-        self.pokedex       = 649
-        self.species       = "Genesect"
-        self.nature        = self.generateNature()
-        self.type          = ["Bug", "Steel"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 71
-        self.attack        = 120
-        self.defense       = 95
-        self.spAtk         = 120
-        self.spDef         = 95
-        self.speed         = 99
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Download"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class xerneas(pokemon):
-    def __init__(self):
-        self.pokedex       = 716
-        self.species       = "Xerneas"
-        self.nature        = self.generateNature()
-        self.type          = ["Fairy"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 126
-        self.attack        = 131
-        self.defense       = 95
-        self.spAtk         = 131
-        self.spDef         = 98
-        self.speed         = 99
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Fairy Aura"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class yveltal(pokemon):
-    def __init__(self):
-        self.pokedex       = 717
-        self.species       = "Yveltal"
-        self.nature        = self.generateNature()
-        self.type          = ["Dark", "Flying"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 126
-        self.attack        = 131
-        self.defense       = 95
-        self.spAtk         = 131
-        self.spDef         = 98
-        self.speed         = 99
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Dark Aura"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class zygarde(pokemon):
-    def __init__(self):
-        self.pokedex       = 718
-        self.species       = "Zygarde"
-        self.nature        = self.generateNature()
-        self.type          = ["Dragon", "Ground"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 108
-        self.attack        = 100
-        self.defense       = 121
-        self.spAtk         = 81
-        self.spDef         = 95
-        self.speed         = 95
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Aura Break"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class diancie(pokemon):
-    def __init__(self):
-        self.pokedex       = 719
-        self.species       = "Diancie"
-        self.nature        = self.generateNature()
-        self.type          = ["Rock", "Fairy"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 50
-        self.attack        = 160
-        self.defense       = 110
-        self.spAtk         = 160
-        self.spDef         = 110
-        self.speed         = 110
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Clear Body"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class hoopa(pokemon):
-    def __init__(self):
-        self.pokedex       = 720
-        self.species       = "Hoopa"
-        self.nature        = self.generateNature()
-        self.type          = ["Psychic", "Ghost"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 80
-        self.attack        = 110
-        self.defense       = 60
-        self.spAtk         = 150
-        self.spDef         = 130
-        self.speed         = 70
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Magician"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class volcanion(pokemon):
-    def __init__(self):
-        self.pokedex       = 721
-        self.species       = "Volcanion"
-        self.nature        = self.generateNature()
-        self.type          = ["Fire", "Water"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 80
-        self.attack        = 110
-        self.defense       = 120
-        self.spAtk         = 130
-        self.spDef         = 90
-        self.speed         = 70
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Water Absorb"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class cosmog(pokemon):
-    def __init__(self):
-        self.pokedex       = 789
-        self.species       = "Cosmog"
-        self.nature        = self.generateNature()
-        self.type          = ["Psychic"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 43
-        self.attack        = 29
-        self.defense       = 31
-        self.spAtk         = 29
-        self.spDef         = 31
-        self.speed         = 37
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Unaware"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class cosmoem(pokemon):
-    def __init__(self):
-        self.pokedex       = 790
-        self.species       = "Cosmoem"
-        self.nature        = self.generateNature()
-        self.type          = ["Psychic"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 43
-        self.attack        = 29
-        self.defense       = 131
-        self.spAtk         = 29
-        self.spDef         = 131
-        self.speed         = 37
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Sturdy"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class solgaleo(pokemon):
-    def __init__(self):
-        self.pokedex       = 791
-        self.species       = "Solgaleo"
-        self.nature        = self.generateNature()
-        self.type          = ["Psychic", "Steel"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 137
-        self.attack        = 137
-        self.defense       = 107
-        self.spAtk         = 113
-        self.spDef         = 89
-        self.speed         = 97
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Full Metal Body"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class lunala(pokemon):
-    def __init__(self):
-        self.pokedex       = 792
-        self.species       = "Lunala"
-        self.nature        = self.generateNature()
-        self.type          = ["Psychic", "Ghost"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 137
-        self.attack        = 113
-        self.defense       = 89
-        self.spAtk         = 137
-        self.spDef         = 107
-        self.speed         = 97
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Shadow Shield"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class nihilego(pokemon):
-    def __init__(self):
-        self.pokedex       = 793
-        self.species       = "Nihilego"
-        self.nature        = self.generateNature()
-        self.type          = ["Rock", "Poison"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 109
-        self.attack        = 53
-        self.defense       = 47
-        self.spAtk         = 127
-        self.spDef         = 131
-        self.speed         = 103
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Beast Boost"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class buzzwole(pokemon):
-    def __init__(self):
-        self.pokedex       = 794
-        self.species       = "Buzzwole"
-        self.nature        = self.generateNature()
-        self.type          = ["Bug", "Fight"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 107
-        self.attack        = 139
-        self.defense       = 139
-        self.spAtk         = 53
-        self.spDef         = 53
-        self.speed         = 79
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Beast Boost"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class pheromosa(pokemon):
-    def __init__(self):
-        self.pokedex       = 795
-        self.species       = "Pheromosa"
-        self.nature        = self.generateNature()
-        self.type          = ["Bug", "Fight"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 71
-        self.attack        = 137
-        self.defense       = 37
-        self.spAtk         = 137
-        self.spDef         = 37
-        self.speed         = 151
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Beast Boost"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class xurkitree(pokemon):
-    def __init__(self):
-        self.pokedex       = 796
-        self.species       = "Xurkitree"
-        self.nature        = self.generateNature()
-        self.type          = ["Electric"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 83
-        self.attack        = 89
-        self.defense       = 71
-        self.spAtk         = 173
-        self.spDef         = 71
-        self.speed         = 83
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Beast Boost"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class celesteela(pokemon):
-    def __init__(self):
-        self.pokedex       = 797
-        self.species       = "Celesteela"
-        self.nature        = self.generateNature()
-        self.type          = ["Steel", "Flying"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 97
-        self.attack        = 101
-        self.defense       = 103
-        self.spAtk         = 107
-        self.spDef         = 101
-        self.speed         = 61
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Beast Boost"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class kartana(pokemon):
-    def __init__(self):
-        self.pokedex       = 798
-        self.species       = "Kartana"
-        self.nature        = self.generateNature()
-        self.type          = ["Grass", "Steel"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 59
-        self.attack        = 181
-        self.defense       = 131
-        self.spAtk         = 59
-        self.spDef         = 31
-        self.speed         = 109
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Beast Boost"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class guzzlord(pokemon):
-    def __init__(self):
-        self.pokedex       = 799
-        self.species       = "Guzzlord"
-        self.nature        = self.generateNature()
-        self.type          = ["Dark", "Dragon"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 223
-        self.attack        = 101
-        self.defense       = 53
-        self.spAtk         = 97
-        self.spDef         = 53
-        self.speed         = 43
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Beast Boost"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-        
-class necrozma(pokemon):
-    def __init__(self):
-        self.pokedex       = 800
-        self.species       = "Necrozma"
-        self.nature        = self.generateNature()
-        self.type          = ["Psychic"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 97
-        self.attack        = 107
-        self.defense       = 101
-        self.spAtk         = 127
-        self.spDef         = 89
-        self.speed         = 79
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Prism Armor"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class magearna(pokemon):
-    def __init__(self):
-        self.pokedex       = 801
-        self.species       = "Magearna"
-        self.nature        = self.generateNature()
-        self.type          = ["Steel", "Fairy"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 80
-        self.attack        = 95
-        self.defense       = 115
-        self.spAtk         = 130
-        self.spDef         = 115
-        self.speed         = 65
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Soul-Heart"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class marshadow(pokemon):
-    def __init__(self):
-        self.pokedex       = 802
-        self.species       = "Marshadow"
-        self.nature        = self.generateNature()
-        self.type          = ["Fight", "Ghost"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 90
-        self.attack        = 125
-        self.defense       = 80
-        self.spAtk         = 90
-        self.spDef         = 90
-        self.speed         = 125
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Technician"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class Poipole(pokemon):
-    def __init__(self):
-        self.pokedex       = 803
-        self.species       = "Poipole"
-        self.nature        = self.generateNature()
-        self.type          = ["Poison"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 67
-        self.attack        = 73
-        self.defense       = 67
-        self.spAtk         = 73
-        self.spDef         = 67
-        self.speed         = 73
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Beast Boost"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class Naganadel(pokemon):
-    def __init__(self):
-        self.pokedex       = 804
-        self.species       = "Naganadel"
-        self.nature        = self.generateNature()
-        self.type          = ["Poison", "Dragon"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 73
-        self.attack        = 73
-        self.defense       = 73
-        self.spAtk         = 127
-        self.spDef         = 73
-        self.speed         = 121
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Beast Boost"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class stakataka(pokemon):
-    def __init__(self):
-        self.pokedex       = 805
-        self.species       = "Stakataka"
-        self.nature        = self.generateNature()
-        self.type          = ["Rock", "Steel"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 61
-        self.attack        = 131
-        self.defense       = 211
-        self.spAtk         = 53
-        self.spDef         = 101
-        self.speed         = 13
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Beast Boost"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class blacephalon(pokemon):
-    def __init__(self):
-        self.pokedex       = 806
-        self.species       = "Blacephalon"
-        self.nature        = self.generateNature()
-        self.type          = ["Fire", "Ghost"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 53
-        self.attack        = 127
-        self.defense       = 53
-        self.spAtk         = 151
-        self.spDef         = 79
-        self.speed         = 107
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Beast Boost"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class zeraora(pokemon):
-    def __init__(self):
-        self.pokedex       = 807
-        self.species       = "Zeraora"
-        self.nature        = self.generateNature()
-        self.type          = ["Electric"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 88
-        self.attack        = 112
-        self.defense       = 75
-        self.spAtk         = 102
-        self.spDef         = 80
-        self.speed         = 143
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Volt Absorb"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class meltan(pokemon):
-    def __init__(self):
-        self.pokedex       = 808
-        self.species       = "Meltan"
-        self.nature        = self.generateNature()
-        self.type          = ["Steel"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 46
-        self.attack        = 65
-        self.defense       = 65
-        self.spAtk         = 55
-        self.spDef         = 35
-        self.speed         = 34
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Magnet Pull"
-        self.hiddenAbility = ""
-        self.hidAbBool     = False
-
-class melmetal(pokemon):
-    def __init__(self):
-        self.pokedex       = 809
-        self.species       = "Melmetal"
-        self.nature        = self.generateNature()
-        self.type          = ["Steel"]
-        self.level         = self.generateLevel(1, 100)
-        self.hp            = 135
-        self.attack        = 143
-        self.defense       = 143
-        self.spAtk         = 80
-        self.spDef         = 65
-        self.speed         = 34
-        self.friend        = 70
-        self.gender        = self.generateGender(0)              
-        self.abilities     = [""]
-        self.ability       = "Iron Fist"
-        self.hiddenAbility = ""
         self.hidAbBool     = False
 
 class zacian(pokemon):
