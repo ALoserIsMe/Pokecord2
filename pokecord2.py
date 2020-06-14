@@ -10,8 +10,15 @@ import discord
 
 # Miscellaneous imports
 import asyncio
+import pickle
 import random
 import time
+import os
+
+class saveClass:
+    def __init__(self, players):
+        self.players = players
+        pass
 
 # Stores the current pokemon, as well as spawning a new one
 class pokecord2:
@@ -20,14 +27,60 @@ class pokecord2:
         self.caught = False
 
         self.allPokemon = [bulbasaur(), charmander(), squirtle()]
-        self.starterPokemon = [bulbasaur(), charmander(), squirtle(), chikorita(), cyndaquil(), totodile(), treecko(), torchic(), mudkip(), turtwig(), chimchar(), piplup(), snivy(), tepig(), oshawott(), chespin(), fennekin(), froakie(), rowlett(), litten(), popplio(), grookey(), scorbunny(), sobble()]
+        self.starterPokemon   = [bulbasaur(), charmander(), squirtle(), chikorita(), cyndaquil(), totodile(), treecko(), torchic(), mudkip(), turtwig(), chimchar(), piplup(), snivy(), tepig(), oshawott(), chespin(), fennekin(), froakie(), rowlett(), litten(), popplio(), grookey(), scorbunny(), sobble()]
 
-        self.players = {}
+        # Spawn rarity teirs
+        # or tiers
+        # however the fuck it's spelled
+        # or is it spelt?
+        self.commonPokemon    = []
+        self.uncommonPokemon  = []
+        self.rarePokemon      = [bulbasaur(), charmander(), squirtle(), chikorita(), cyndaquil(), totodile(), treecko(), torchic(), mudkip(), turtwig(), chimchar(), piplup(), snivy(), tepig(), oshawott(), chespin(), fennekin(), froakie(), rowlett(), litten(), popplio(), grookey(), scorbunny(), sobble()]
+        # 10% chance to spawn.
+        self.legendaryPokemon = [articuno(), zapdos(), moltres(), raiku(), entei(), suicune(), regirock(), regice(), registeel(), latias(), latios(), uxie(), mesprit(), azief(), heatran(), regigigas(), cresselia(), cobalion(), terrakion(), virizion(), tornadus(), thundurus(), landorus(), typeNull(), silvally(), tapuKoko(), tapuLele(), tapuBulu(), tapuFini(), nihilego(), buzzwole(), pheromosa(), xurkitree(), celesteela(), kartana(), guzzlord(), poipole(), neganadel(), stakataka(), blacephalon(), regidrago(), mewtwo(), lugia(), hoOh(), kyogre(), groudon(), rayquaza(), dialga(), palkia(), giratina(), reshiram(), zekrom(), kyurem(), xerneas(), yvetal(), zygarde(), cosmog(), cosmoem(), solgaleo(), lunala(), necrozma(), zacian(), zamazenta(), eternatus()]
+        # 7% chance to spawn
+        # 63 pokemon. ~1.587% chance each
+        # total = 0.11%
+        self.mythicalPokemon  = [mew(), celebi(), jirachi(), deoxys(), phione(), manaphy(), darkrai(), shaymin(), arceus(), victini(), keldeo(), meloetta(), genesect(), diancie(), hoopa(), volcanion(), magearna(), marshadow(), zeraora(), meltan(), melmetal()]
+        # 3% chance to spawn
+        # 21 pokemon. ~4.76% chance each
+        # total = 0.14%
+
+        try:
+            self.saveFile = open('saveFile', 'rb+')
+            self.players = pickle.load(self.saveFile)
+            print("Reading save file")
+        except FileNotFoundError:
+            print("Save file not found, creating new one")
+            self.saveFile = open('saveFile', 'wb')
+            self.players = {}
 
     def spawnPokemon(self):
-        self.currentPokemon = random.choice(self.allPokemon)
+        spawnChance = random.randint(0, 100)
+        if spawnChance > 50:
+            tier = commonPokemon
+        elif spawnChance <= 50 and spawnChance > 80:
+            tier = uncommonPokemon
+        elif spawnChance <= 80 and spawnChance > 90:
+            tier = rarePokemon
+        elif spawnChance <= 90 and spawnChance > 98:
+            tier = legendaryPokemon
+        elif spawnChance <= 98:
+            tier = mythicalPokemon
+
+        self.currentPokemon = random.choice(tier)
         print("Current Pokemon:", self.currentPokemon.getSpecies())
         self.caught = False
+
+        '''self.currentPokemon = random.choice(self.allPokemon)
+        print("Current Pokemon:", self.currentPokemon.getSpecies())
+        self.caught = False'''                                                  # Old version, ICE
+
+    def savePlayers(self):
+        pickle.dump(self.players, self.saveFile)
+        print("Game saved")
+        self.saveFile.close()
+        self.saveFile = open('saveFile', 'rb+')
 
 pokecord = pokecord2()
 bot = commands.Bot(command_prefix = "p!")
@@ -40,7 +93,8 @@ async def background_loop():
     print("background loop ready")
     while True:
         pokecord.spawnPokemon()
-        channel = bot.get_channel(716961981579526308)
+        channel = bot.get_channel(716961981579526308)                   # General
+        #channel = bot.get_channel(720225257746726973)                          # Workshop
 
         # Sends image of the pokemon
         filename = "images/" + str(pokecord.currentPokemon.getPokedex()) + ".png"
@@ -59,30 +113,77 @@ async def background_loop():
 async def catch(ctx, arg):
     if pokecord.caught == False:
         if arg.lower() == pokecord.currentPokemon.getSpecies().lower():
-            await ctx.send("caught: " + pokecord.currentPokemon.getSpecies())
-            pokecord.caught = True
+            if hash(ctx.author) in pokecord.players:
+                pokecord.players[hash(ctx.author)].addPokemon(pokecord.currentPokemon)
+                pokecord.savePlayers()
+                await ctx.send("caught: " + pokecord.currentPokemon.getSpecies())
+                pokecord.caught = True
+                #await ctx.send(pokecord.players[hash(ctx.author)].pokemon)
+            else:
+                await ctx.send("You are not registered! use p!pick <starter> to start playing")
         else:
             await ctx.send("That is the wrong pokemon.")
     else:
         await ctx.send("The pokemon has already been caught")
-        
+
+@bot.command()
+async def hint(ctx):
+    hint = ""
+    for x in range(len(pokecord.currentPokemon.getSpecies())):
+        if random.randint(0, 100) < 34:
+            hint += "\_"
+        else:
+            hint += pokecord.currentPokemon.getSpecies()[x]
+    await ctx.send(hint)
+
 @bot.command()
 async def pick(ctx, arg):
-    for x in range(len(pokecord.starterPokemon)):
-        if pokecord.starterPokemon.getSpecies().lower() == arg:                                             # I know this is a mess. TODO: Tidy it up
-            await ctx.send("Starter pokemon " + pokecord.starterPokemon.getSpecies() + " picked.")
-            print(arg.author.id)
-            pokecord.update({arg.author.id : player(arg.author.id, pokecord.starterPokemon[x])})
-        else:
+    selected = False
+    print(pokecord.players)
+    print(hash(ctx.author))
+    if hash(ctx.author) not in pokecord.players:
+        for x in range(len(pokecord.starterPokemon)):
+            if pokecord.starterPokemon[x].getSpecies().lower() == arg.lower():                                             # I know this is a mess. TODO: Tidy it up
+                await ctx.send("Starter pokemon " + pokecord.starterPokemon[x].getSpecies() + " picked.")
+                print(ctx.author)
+                playerObj = player(hash(ctx.author), pokecord.starterPokemon[x])
+                newKey = hash(ctx.author)
+                print(newKey)
+                pokecord.players.update({newKey: playerObj})
+                #pokecord.players.append([hash(ctx.author), playerObj])
+                selected = True
+                pokecord.savePlayers()
+        if selected == False:
             await ctx.send("That is not a valid starter pokemon.")
+    else:
+        await ctx.send("You are already a registered player")
+
+# Lists the player's pokemon.
+@bot.command()
+async def pokemon(ctx):
+    playersPokemon = []
+
+    playersPokemonRaw = pokecord.players[hash(ctx.author)].pokemon
+    for x in range(len(playersPokemonRaw)):
+        playersPokemon.append(playersPokemonRaw[x].getSpecies())
+
+    playersPokemon = playersPokemon.sort()
+    for x in range(playersPokemon):
+        toOutput = ("%s - Level %i" % (playersPokemon[x].getSpecies(), playersPokemon[x].getLevel()))
+    await ctx.send(toOutput)
+
+@bot.command()
+async def list(ctx):
+   await ctx.send(pokecord.players)
 
 @bot.event
 async def on_ready():
     print("Ready")
 
-@bot.event
-async def on_guild_join():
-    print(Guild.name)
-
 bot.loop.create_task(background_loop())
-bot.run("TOKEN", bot=True)
+try:
+    bot.run("NzE3MDY4Mjc3NjY2MjgzNTUx.Xtoa3Q.ETg1yw4ce7Oh8IfvQHN49HoT9yE", bot=True)
+except RuntimeError:
+    print("Bot stopped")
+# If you're reading this code...
+# I'm truly sorry
