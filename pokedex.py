@@ -2372,7 +2372,7 @@ class muk(pokemon):
         
 class alolanMuk(pokemon):
     def __init__(self):
-        self.pokedex       = 89.0
+        self.pokedex       = 89.5
         self.species       = "Alolan Muk"
         self.nature        = self.generateNature()
         self.type          = ["Poison", "Dark"]
@@ -4584,7 +4584,7 @@ class oshawott(pokemon):
 
 class cobalion(pokemon):
     def __init__(self):
-        self.pokedex       = 638
+        self.pokedex       = 638.0
         self.species       = "Coballion"
         self.nature        = self.generateNature()
         self.type          = ["Steel", "Fight"]
@@ -4604,7 +4604,7 @@ class cobalion(pokemon):
 
 class terrakion(pokemon):
     def __init__(self):
-        self.pokedex       = 639
+        self.pokedex       = 639.0
         self.species       = "Terrakion"
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Fight"]
@@ -4624,7 +4624,7 @@ class terrakion(pokemon):
 
 class virizion(pokemon):
     def __init__(self):
-        self.pokedex       = 640
+        self.pokedex       = 640.0
         self.species       = "Virizion"
         self.nature        = self.generateNature()
         self.type          = ["Grass", "Fight"]
@@ -4644,7 +4644,7 @@ class virizion(pokemon):
 
 class tornadus(pokemon):
     def __init__(self):
-        self.pokedex       = 641
+        self.pokedex       = 641.0
         self.species       = "Tornadus"
         self.nature        = self.generateNature()
         self.type          = ["Flying"]
@@ -4664,7 +4664,7 @@ class tornadus(pokemon):
 
 class thundurus(pokemon):
     def __init__(self):
-        self.pokedex       = 642
+        self.pokedex       = 642.0
         self.species       = "Thundurus"
         self.nature        = self.generateNature()
         self.type          = ["Electric", "Flying"]
@@ -4684,7 +4684,7 @@ class thundurus(pokemon):
 
 class reshiram(pokemon):
     def __init__(self):
-        self.pokedex       = 643
+        self.pokedex       = 643.0
         self.species       = "Reshiram"
         self.nature        = self.generateNature()
         self.type          = ["Dragon", "Fire"]
@@ -4704,7 +4704,7 @@ class reshiram(pokemon):
 
 class zekrom(pokemon):
     def __init__(self):
-        self.pokedex       = 644
+        self.pokedex       = 644.0
         self.species       = "Zekrom"
         self.nature        = self.generateNature()
         self.type          = ["Dragon", "Electric"]
@@ -4724,7 +4724,7 @@ class zekrom(pokemon):
 
 class landorus(pokemon):
     def __init__(self):
-        self.pokedex       = 645
+        self.pokedex       = 645.0
         self.species       = "Landorus"
         self.nature        = self.generateNature()
         self.type          = ["Electric", "Flying"]
@@ -4744,7 +4744,7 @@ class landorus(pokemon):
 
 class kyurem(pokemon):
     def __init__(self):
-        self.pokedex       = 646
+        self.pokedex       = 646.0
         self.species       = "Kyurem"
         self.nature        = self.generateNature()
         self.type          = ["Dragon", "Ice"]
@@ -4764,7 +4764,7 @@ class kyurem(pokemon):
 
 class keldeo(pokemon):
     def __init__(self):
-        self.pokedex       = 647
+        self.pokedex       = 647.0
         self.species       = "Keldeo"
         self.nature        = self.generateNature()
         self.type          = ["Water", "Fight"]
@@ -4784,7 +4784,7 @@ class keldeo(pokemon):
 
 class meloetta(pokemon):
     def __init__(self):
-        self.pokedex       = 648
+        self.pokedex       = 648.0
         self.species       = "Meloetta"
         self.nature        = self.generateNature()
         self.type          = ["Normal", "Psychic"]
@@ -4804,7 +4804,7 @@ class meloetta(pokemon):
 
 class genesect(pokemon):
     def __init__(self):
-        self.pokedex       = 649
+        self.pokedex       = 649.0
         self.species       = "Genesect"
         self.nature        = self.generateNature()
         self.type          = ["Bug", "Steel"]
@@ -5304,7 +5304,7 @@ class gogoat(pokemon):
 
 class xerneas(pokemon):
     def __init__(self):
-        self.pokedex       = 716
+        self.pokedex       = 716.0
         self.species       = "Xerneas"
         self.nature        = self.generateNature()
         self.type          = ["Fairy"]
@@ -5324,7 +5324,7 @@ class xerneas(pokemon):
 
 class yveltal(pokemon):
     def __init__(self):
-        self.pokedex       = 717
+        self.pokedex       = 717.0
         self.species       = "Yveltal"
         self.nature        = self.generateNature()
         self.type          = ["Dark", "Flying"]
@@ -5344,7 +5344,7 @@ class yveltal(pokemon):
 
 class zygarde(pokemon):
     def __init__(self):
-        self.pokedex       = 718
+        self.pokedex       = 718.0
         self.species       = "Zygarde"
         self.nature        = self.generateNature()
         self.type          = ["Dragon", "Ground"]
@@ -5364,7 +5364,7 @@ class zygarde(pokemon):
 
 class diancie(pokemon):
     def __init__(self):
-        self.pokedex       = 719
+        self.pokedex       = 719.0
         self.species       = "Diancie"
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Fairy"]
@@ -5384,7 +5384,7 @@ class diancie(pokemon):
 
 class hoopa(pokemon):
     def __init__(self):
-        self.pokedex       = 720
+        self.pokedex       = 720.0
         self.species       = "Hoopa"
         self.nature        = self.generateNature()
         self.type          = ["Psychic", "Ghost"]
@@ -5404,7 +5404,7 @@ class hoopa(pokemon):
 
 class volcanion(pokemon):
     def __init__(self):
-        self.pokedex       = 721
+        self.pokedex       = 721.0
         self.species       = "Volcanion"
         self.nature        = self.generateNature()
         self.type          = ["Fire", "Water"]
@@ -5647,7 +5647,7 @@ class tapuFini(pokemon):
 
 class cosmog(pokemon):
     def __init__(self):
-        self.pokedex       = 789
+        self.pokedex       = 789.0
         self.species       = "Cosmog"
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]
@@ -5867,7 +5867,7 @@ class guzzlord(pokemon):
         
 class necrozma(pokemon):
     def __init__(self):
-        self.pokedex       = 800
+        self.pokedex       = 800.0
         self.species       = "Necrozma"
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]
@@ -5887,7 +5887,7 @@ class necrozma(pokemon):
 
 class magearna(pokemon):
     def __init__(self):
-        self.pokedex       = 801
+        self.pokedex       = 801.0
         self.species       = "Magearna"
         self.nature        = self.generateNature()
         self.type          = ["Steel", "Fairy"]
@@ -5907,7 +5907,7 @@ class magearna(pokemon):
 
 class marshadow(pokemon):
     def __init__(self):
-        self.pokedex       = 802
+        self.pokedex       = 802.0
         self.species       = "Marshadow"
         self.nature        = self.generateNature()
         self.type          = ["Fight", "Ghost"]
@@ -6007,7 +6007,7 @@ class blacephalon(pokemon):
 
 class zeraora(pokemon):
     def __init__(self):
-        self.pokedex       = 807
+        self.pokedex       = 807.0
         self.species       = "Zeraora"
         self.nature        = self.generateNature()
         self.type          = ["Electric"]
@@ -6027,7 +6027,7 @@ class zeraora(pokemon):
 
 class meltan(pokemon):
     def __init__(self):
-        self.pokedex       = 808
+        self.pokedex       = 808.0
         self.species       = "Meltan"
         self.nature        = self.generateNature()
         self.type          = ["Steel"]
@@ -6047,7 +6047,7 @@ class meltan(pokemon):
 
 class melmetal(pokemon):
     def __init__(self):
-        self.pokedex       = 809
+        self.pokedex       = 809.0
         self.species       = "Melmetal"
         self.nature        = self.generateNature()
         self.type          = ["Steel"]
@@ -6130,7 +6130,7 @@ class sobble(pokemon):
 
 class zacian(pokemon):
     def __init__(self):
-        self.pokedex       = 888
+        self.pokedex       = 888.0
         self.species       = "Zacian"
         self.nature        = self.generateNature()
         self.type          = ["Fairy"]
@@ -6150,7 +6150,7 @@ class zacian(pokemon):
 
 class zamazenta(pokemon):
     def __init__(self):
-        self.pokedex       = 889
+        self.pokedex       = 889.0
         self.species       = "Zamazenta"
         self.nature        = self.generateNature()
         self.type          = ["Fight"]
@@ -6170,7 +6170,7 @@ class zamazenta(pokemon):
 
 class eternatus(pokemon):
     def __init__(self):
-        self.pokedex       = 890
+        self.pokedex       = 890.0
         self.species       = "Eternatus"
         self.nature        = self.generateNature()
         self.type          = ["Poison", "Dragon"]
