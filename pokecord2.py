@@ -33,11 +33,13 @@ class pokecord2:
         # or tiers
         # however the fuck it's spelled
         # or is it spelt?
-        self.commonPokemon    = []
-        self.uncommonPokemon  = []
+        self.commonPokemon    = [rattata(), pidgey()]
+        # 50% chance to spawn
+        self.uncommonPokemon  = [raticate(), pidgeotto()]
+        # 30% chance to spawn
         self.rarePokemon      = [bulbasaur(), charmander(), squirtle(), chikorita(), cyndaquil(), totodile(), treecko(), torchic(), mudkip(), turtwig(), chimchar(), piplup(), snivy(), tepig(), oshawott(), chespin(), fennekin(), froakie(), rowlett(), litten(), popplio(), grookey(), scorbunny(), sobble()]
         # 10% chance to spawn.
-        self.legendaryPokemon = [articuno(), zapdos(), moltres(), raiku(), entei(), suicune(), regirock(), regice(), registeel(), latias(), latios(), uxie(), mesprit(), azief(), heatran(), regigigas(), cresselia(), cobalion(), terrakion(), virizion(), tornadus(), thundurus(), landorus(), typeNull(), silvally(), tapuKoko(), tapuLele(), tapuBulu(), tapuFini(), nihilego(), buzzwole(), pheromosa(), xurkitree(), celesteela(), kartana(), guzzlord(), poipole(), neganadel(), stakataka(), blacephalon(), regidrago(), mewtwo(), lugia(), hoOh(), kyogre(), groudon(), rayquaza(), dialga(), palkia(), giratina(), reshiram(), zekrom(), kyurem(), xerneas(), yvetal(), zygarde(), cosmog(), cosmoem(), solgaleo(), lunala(), necrozma(), zacian(), zamazenta(), eternatus()]
+        self.legendaryPokemon = [articuno(), zapdos(), moltres(), raikou(), entei(), suicune(), regirock(), regice(), registeel(), latias(), latios(), uxie(), mesprit(), azelf(), heatran(), regigigas(), cresselia(), cobalion(), terrakion(), virizion(), tornadus(), thundurus(), landorus(), typeNull(), silvally(), tapuKoko(), tapuLele(), tapuBulu(), tapuFini(), nihilego(), buzzwole(), pheromosa(), xurkitree(), celesteela(), kartana(), guzzlord(), poipole(), naganadel(), stakataka(), blacephalon(), mewtwo(), lugia(), hoOh(), kyogre(), groudon(), rayquaza(), dialga(), palkia(), giratina(), reshiram(), zekrom(), kyurem(), xerneas(), yveltal(), zygarde(), cosmog(), cosmoem(), solgaleo(), lunala(), necrozma(), zacian(), zamazenta(), eternatus()]
         # 7% chance to spawn
         # 63 pokemon. ~1.587% chance each
         # total = 0.11%
@@ -58,15 +60,15 @@ class pokecord2:
     def spawnPokemon(self):
         spawnChance = random.randint(0, 100)
         if spawnChance > 50:
-            tier = commonPokemon
+            tier = self.commonPokemon
         elif spawnChance <= 50 and spawnChance > 80:
-            tier = uncommonPokemon
+            tier = self.uncommonPokemon
         elif spawnChance <= 80 and spawnChance > 90:
-            tier = rarePokemon
+            tier = self.rarePokemon
         elif spawnChance <= 90 and spawnChance > 98:
-            tier = legendaryPokemon
+            tier = self.legendaryPokemon
         elif spawnChance <= 98:
-            tier = mythicalPokemon
+            tier = self.mythicalPokemon
 
         self.currentPokemon = random.choice(tier)
         print("Current Pokemon:", self.currentPokemon.getSpecies())
@@ -93,15 +95,21 @@ async def background_loop():
     print("background loop ready")
     while True:
         pokecord.spawnPokemon()
-        channel = bot.get_channel(716961981579526308)                   # General
+        channel = bot.get_channel(716961981579526308)                          # General
         #channel = bot.get_channel(720225257746726973)                          # Workshop
 
         # Sends image of the pokemon
         filename = "images/" + str(pokecord.currentPokemon.getPokedex()) + ".png"
-        with open(filename, 'rb') as f:
-            picture = discord.File(f)
-            await channel.send("**A wild pokemon has appeared!** \nGuess the pokemon and type p!catch <pokemon> to catch it!\n", file= picture)
-
+        try:
+            with open(filename, 'rb') as f:
+                picture = discord.File(f)
+                await channel.send("**A wild pokemon has appeared!** \nGuess the pokemon and type p!catch <pokemon> to catch it!\n", file= picture)
+        except FileNotFoundError:
+                await channel.send("**A wild pokemon has appeared!** \nGuess the pokemon and type p!catch <pokemon> to catch it!\nPokedex number: " + str(pokecord.currentPokemon.getPokedex()))
+                with open('errorLog', 'a') as errorFile:
+                    errorMessage = str(pokecord.currentPokemon.getPokedex()) + " needs an image\n"
+                    print(errorMessage)
+                    errorFile.write(errorMessage)
         # Waits a random amount of time between the minimum time and maximum time
         time = random.randint(mins5, mins30)
         print("Waiting", time, "seconds")
@@ -161,15 +169,23 @@ async def pick(ctx, arg):
 # Lists the player's pokemon.
 @bot.command()
 async def pokemon(ctx):
-    playersPokemon = []
+    '''playersPokemon = []
 
-    playersPokemonRaw = pokecord.players[hash(ctx.author)].pokemon
-    for x in range(len(playersPokemonRaw)):
-        playersPokemon.append(playersPokemonRaw[x].getSpecies())
+    playersPokemonObj = pokecord.players[hash(ctx.author)].pokemon
+    for x in range(len(playersPokemonObj)):
+        playersPokemon.append(playersPokemonObj[x].getSpecies())
 
-    playersPokemon = playersPokemon.sort()
-    for x in range(playersPokemon):
-        toOutput = ("%s - Level %i" % (playersPokemon[x].getSpecies(), playersPokemon[x].getLevel()))
+    sortedPokemonObj = sorted(playersPokemonObj, key=playersPokemonObj[x].getSpecies())
+    sortedPokemon    = sorted(playersPokemon)
+    for x in range(len(sortedPokemon)):
+        toOutput = ("%s - Level %i" % (sortedPokemon[x].getSpecies(), sortedPokemon[x].getLevel()))
+    await ctx.send(toOutput)'''                                                                                        # TODO: fuckin make this work sometime idfc
+
+    toOutput       = []
+    playersPokemon = pokecord.players[hash(ctx.author)].pokemon
+    for x in range(len(playersPokemon)):
+        toOutput.append(playersPokemon[x].getSpecies() + ": Level " + str(playersPokemon[x].getLevel()))
+        #toOutput.append(playersPokemon[x].getSpecies()
     await ctx.send(toOutput)
 
 @bot.command()
@@ -182,7 +198,7 @@ async def on_ready():
 
 bot.loop.create_task(background_loop())
 try:
-    bot.run("TOKEN" bot=True)
+    bot.run("TOKEN", bot=True)
 except RuntimeError:
     print("Bot stopped")
 # If you're reading this code...
