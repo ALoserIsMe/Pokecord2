@@ -157,7 +157,7 @@ class pokemon:
 
 class missingNo(pokemon):                                            # Pokemon name beginning with lower case. Subsequent words are capitalized on the first letter
     def __init__(self): 
-        self.pokedex       = 0                                       # Pokedex number
+        self.pokedex       = 0.0                                     # Pokedex number
         self.species       = "MissingNo"                             # Pokemon name with first letter capitalized
         self.nature        = self.generateNature()
         self.type          = ["Bird", "Normal"]                      # Pokemon types
