@@ -5125,7 +5125,7 @@ class popplio(pokemon):
         self.hiddenAbility = "LiquidVoice"
         self.hidAbBool     = False
 
-class typenull(pokemon):
+class typeNull(pokemon):
     def __init__(self):
         self.pokedex       = 772.0
         self.species       = "Type: Null"
