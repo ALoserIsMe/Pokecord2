@@ -5159,11 +5159,131 @@ class silvally(pokemon):
         self.spDef         = 95
         self.speed         = 95
         self.friend        = 70
+        self.gender        = self.generateGender(0)     #Genderless              
+        self.abilities     = [""]
+        self.ability       = "Shields Down"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class minior(pokemon):
+    def __init__(self):
+        self.pokedex       = 774.0
+        self.species       = "Minior"
+        self.nature        = self.generateNature()
+        self.type          = ["Rock", "Flying""]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 60
+        self.attack        = 100
+        self.defense       = 60
+        self.spAtk         = 100
+        self.spDef         = 60
+        self.speed         = 120
+        self.friend        = 70
         self.gender        = self.generateGender(0)              
         self.abilities     = [""]
         self.ability       = "RKS System"
         self.hiddenAbility = ""
-        self.hidAbBool     = False 
+        self.hidAbBool     = False
+
+class Komala(pokemon):
+    def __init__(self):
+        self.pokedex       = 775.0
+        self.species       = "Komala"
+        self.nature        = self.generateNature()
+        self.type          = ["Normal"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 65
+        self.attack        = 115
+        self.defense       = 65
+        self.spAtk         = 75
+        self.spDef         = 95
+        self.speed         = 65
+        self.friend        = 70
+        self.gender        = self.generateGender(50)              
+        self.abilities     = [""]
+        self.ability       = "Comatose"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+
+class tapuKoko(pokemon):
+    def __init__(self):
+        self.pokedex       = 785.0
+        self.species       = "Tapu Koko"
+        self.nature        = self.generateNature()
+        self.type          = ["Electric", "Fairy"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 70
+        self.attack        = 115
+        self.defense       = 85
+        self.spAtk         = 95
+        self.spDef         = 75
+        self.speed         = 130
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Electric Surge"
+        self.hiddenAbility = "Telepathy"
+        self.hidAbBool     = False
+
+class tapuLele(pokemon):
+    def __init__(self):
+        self.pokedex       = 786.0
+        self.species       = "Tapu Lele"
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic", "Fairy"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 70
+        self.attack        = 85
+        self.defense       = 75
+        self.spAtk         = 130
+        self.spDef         = 115
+        self.speed         = 95
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Psychic Surge"
+        self.hiddenAbility = "Telepathy"
+        self.hidAbBool     = False
+
+class tapuBulu(pokemon):
+    def __init__(self):
+        self.pokedex       = 787.0
+        self.species       = "Tapu Bulu"
+        self.nature        = self.generateNature()
+        self.type          = ["Grass", "Fairy"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 70
+        self.attack        = 130
+        self.defense       = 115
+        self.spAtk         = 85
+        self.spDef         = 95
+        self.speed         = 75
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Grassy Surge"
+        self.hiddenAbility = "Telepathy"
+        self.hidAbBool     = False
+
+class tapuFini(pokemon):
+    def __init__(self):
+        self.pokedex       = 788.0
+        self.species       = "Tapu Fini"
+        self.nature        = self.generateNature()
+        self.type          = ["Water", "Fairy"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 70
+        self.attack        = 75
+        self.defense       = 115
+        self.spAtk         = 95
+        self.spDef         = 130
+        self.speed         = 85
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Misty Surge"
+        self.hiddenAbility = "Telepathy"
+        self.hidAbBool     = False
         
 class nihilego(pokemon):
     def __init__(self):
