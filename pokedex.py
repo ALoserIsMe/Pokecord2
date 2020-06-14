@@ -5170,7 +5170,7 @@ class minior(pokemon):
         self.pokedex       = 774.0
         self.species       = "Minior"
         self.nature        = self.generateNature()
-        self.type          = ["Rock", "Flying""]
+        self.type          = ["Rock", "Flying"]
         self.level         = self.generateLevel(1, 100)
         self.hp            = 60
         self.attack        = 100
