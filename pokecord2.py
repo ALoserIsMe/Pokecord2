@@ -182,7 +182,7 @@ async def on_ready():
 
 bot.loop.create_task(background_loop())
 try:
-    bot.run("NzE3MDY4Mjc3NjY2MjgzNTUx.Xtoa3Q.ETg1yw4ce7Oh8IfvQHN49HoT9yE", bot=True)
+    bot.run("TOKEN" bot=True)
 except RuntimeError:
     print("Bot stopped")
 # If you're reading this code...
