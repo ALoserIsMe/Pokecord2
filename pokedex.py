@@ -155,6 +155,18 @@ class pokemon:
         elif self.nature == "Naughty" or self.nature == "Lax" or self.nature == "Naive" or self.nature == "Rash":
             return "Bitter"       
 
+    def describe(self):
+        message = """"""
+        message += "**Level %i %s**\n" % (self.getLevel(), self.getSpecies())
+        message += "**Nature: **"      + self.getNature()       + "\n"
+        message += "**HP: **"          + str(self.getHP())      + "\n"
+        message += "**Attack: **"      + str(self.getAttack())  + "\n"
+        message += "**Defense: **"     + str(self.getDefense()) + "\n"
+        message += "**Sp. Atk: **"     + str(self.getSpAtk())   + "\n"
+        message += "**Dp. Def: **"     + str(self.getSpDef())   + "\n"
+        message += "**Speed: **"       + str(self.getSpeed())   + "\n"
+        return message
+
 class missingNo(pokemon):                                            # Pokemon name beginning with lower case. Subsequent words are capitalized on the first letter
     def __init__(self): 
         self.pokedex       = 0.0                                     # Pokedex number
@@ -6189,7 +6201,7 @@ class eternatus(pokemon):
         self.hidAbBool     = False
 
         
-#pokemon = flabebe()
+pokemon = flabebe()
 #pokemon.setNickname("Paul")
 #print(pokemon.getNickname())
 #print(pokemon.getPokedex())
@@ -6209,6 +6221,7 @@ class eternatus(pokemon):
 #print(pokemon.getAbility())
 #print(pokemon.getHiddenAbility())
 #print(pokemon.getHiddenBool())
+pokemon.describe()
 
 # note: spelling it flavour for now because in Sassi's words: "fuck america"
 
