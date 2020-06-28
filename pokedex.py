@@ -1468,7 +1468,7 @@ class galarianMeowth(pokemon):
         self.species       = "Galarian Meowth"                        
         self.nature        = self.generateNature()
         self.type          = ["Steel"]                
-        self.level         = self.generateLevel(1, 27)           
+        #self.level         = self.generateLevel(1, 27)           
         self.hp            = 50                                
         self.attack        = 65                              
         self.defense       = 55                                 
@@ -1488,7 +1488,7 @@ class persian(pokemon):
         self.species       = "Persian"                        
         self.nature        = self.generateNature()
         self.type          = ["Normal"]                
-        self.level         = self.generateLevel(28, 100)           
+       # self.level         = self.generateLevel(28, 100)           
         self.hp            = 65                                
         self.attack        = 70                              
         self.defense       = 60                                 
@@ -1508,7 +1508,7 @@ class alolanPersian(pokemon):
         self.species       = "Persian"                        
         self.nature        = self.generateNature()
         self.type          = ["Dark"]                
-        self.level         = self.generateLevel(1, 100)           
+        #self.level         = self.generateLevel(1, 100)           
         self.hp            = 65                                
         self.attack        = 60                              
         self.defense       = 60                                 
@@ -1528,7 +1528,7 @@ class psyduck(pokemon):
         self.species       = "Psyduck"                        
         self.nature        = self.generateNature()
         self.type          = ["Water"]                
-        self.level         = self.generateLevel(1, 32)           
+       # self.level         = self.generateLevel(1, 32)           
         self.hp            = 50                                
         self.attack        = 52                              
         self.defense       = 48                                 
@@ -1548,7 +1548,7 @@ class golduck(pokemon):
         self.species       = "Golduck"                        
         self.nature        = self.generateNature()
         self.type          = ["Water"]                
-        self.level         = self.generateLevel(33, 100)           
+       # self.level         = self.generateLevel(33, 100)           
         self.hp            = 80                                
         self.attack        = 82                              
         self.defense       = 78                                 
@@ -1568,7 +1568,7 @@ class mankey(pokemon):
         self.species       = "Mankey"                        
         self.nature        = self.generateNature()
         self.type          = ["Fighting"]                
-        self.level         = self.generateLevel(1, 27)           
+       # self.level         = self.generateLevel(1, 27)           
         self.hp            = 40                                
         self.attack        = 80                              
         self.defense       = 35                                 
@@ -1588,7 +1588,7 @@ class primeape(pokemon):
         self.species       = "Primeape"                        
         self.nature        = self.generateNature()
         self.type          = ["Fighting"]                
-        self.level         = self.generateLevel(28, 100)           
+       # self.level         = self.generateLevel(28, 100)           
         self.hp            = 65                                
         self.attack        = 105                              
         self.defense       = 60                                 
@@ -1608,7 +1608,7 @@ class growlithe(pokemon):
         self.species       = "Growlithe"                        
         self.nature        = self.generateNature()
         self.type          = ["Fire"]                
-        self.level         = self.generateLevel(1, 100)           
+       # self.level         = self.generateLevel(1, 100)           
         self.hp            = 55                                
         self.attack        = 70                              
         self.defense       = 45                                 
@@ -1628,7 +1628,7 @@ class arcanine(pokemon):
         self.species       = "Arcanine"                        
         self.nature        = self.generateNature()
         self.type          = ["Fire"]                
-        self.level         = self.generateLevel(1, 100)           
+       # self.level         = self.generateLevel(1, 100)           
         self.hp            = 90                                
         self.attack        = 110                              
         self.defense       = 80                                 
@@ -1648,7 +1648,7 @@ class poliwag(pokemon):
         self.species       = "Poliwag"                        
         self.nature        = self.generateNature()
         self.type          = ["Water"]                
-        self.level         = self.generateLevel(1, 24)           
+        #self.level         = self.generateLevel(1, 24)           
         self.hp            = 65                               
         self.attack        = 65                             
         self.defense       = 65                                 
@@ -1668,7 +1668,7 @@ class poliwhirl(pokemon):
         self.species       = "Poliwhirl"                        
         self.nature        = self.generateNature()
         self.type          = ["Water"]                
-        self.level         = self.generateLevel(25, 100)           
+        #self.level         = self.generateLevel(25, 100)           
         self.hp            = 40                                
         self.attack        = 5                              
         self.defense       = 40                                 
@@ -1688,7 +1688,7 @@ class poliwrath(pokemon):
         self.species       = "Poliwrath"                        
         self.nature        = self.generateNature()
         self.type          = ["Water", "Fighting"]                
-        self.level         = self.generateLevel(25, 100)           
+       # self.level         = self.generateLevel(25, 100)           
         self.hp            = 90                                
         self.attack        = 95                             
         self.defense       = 95                                 
@@ -1708,7 +1708,7 @@ class abra(pokemon):
         self.species       = "Abra"                        
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]                
-        self.level         = self.generateLevel(1, 15)           
+       # self.level         = self.generateLevel(1, 15)           
         self.hp            = 25                                
         self.attack        = 20                              
         self.defense       = 15                                 
@@ -1728,7 +1728,7 @@ class kadabra(pokemon):
         self.species       = "Kadabra"                        
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]                
-        self.level         = self.generateLevel(16, 100)           
+       # self.level         = self.generateLevel(16, 100)           
         self.hp            = 40                                
         self.attack        = 35                              
         self.defense       = 30                                 
@@ -1748,7 +1748,7 @@ class alakazam(pokemon):
         self.species       = "Alakazam"                        
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]                
-        self.level         = self.generateLevel(16, 100)           
+       # self.level         = self.generateLevel(16, 100)           
         self.hp            = 55                                
         self.attack        = 50                              
         self.defense       = 45                                 
@@ -1768,7 +1768,7 @@ class machop(pokemon):
         self.species       = "Machop"                        
         self.nature        = self.generateNature()
         self.type          = ["Fighting"]                
-        self.level         = self.generateLevel(1, 27)           
+      #  self.level         = self.generateLevel(1, 27)           
         self.hp            = 70                                
         self.attack        = 80                              
         self.defense       = 50                                 
@@ -1788,7 +1788,7 @@ class machoke(pokemon):
         self.species       = "Machoke"                        
         self.nature        = self.generateNature()
         self.type          = ["Fighting"]                
-        self.level         = self.generateLevel(28, 100)           
+       # self.level         = self.generateLevel(28, 100)           
         self.hp            = 80                                
         self.attack        = 100                              
         self.defense       = 70                                 
@@ -1808,7 +1808,7 @@ class machamp(pokemon):
         self.species       = "Machamp"                        
         self.nature        = self.generateNature()
         self.type          = ["Fighting"]                
-        self.level         = self.generateLevel(28, 100)           
+       # self.level         = self.generateLevel(28, 100)           
         self.hp            = 90                               
         self.attack        = 130                             
         self.defense       = 80                                
@@ -1828,7 +1828,7 @@ class bellsprout(pokemon):
         self.species       = "Bellsprout"                        
         self.nature        = self.generateNature()
         self.type          = ["Grass", "Poison"]                
-        self.level         = self.generateLevel(1, 20)           
+       # self.level         = self.generateLevel(1, 20)           
         self.hp            = 50                                
         self.attack        = 75                              
         self.defense       = 35                                 
@@ -1848,7 +1848,7 @@ class weepinbell(pokemon):
         self.species       = "Weepinbell"                        
         self.nature        = self.generateNature()
         self.type          = ["Grass", "Poison"]                
-        self.level         = self.generateLevel(21, 100)           
+        #self.level         = self.generateLevel(21, 100)           
         self.hp            = 65                                
         self.attack        = 90                              
         self.defense       = 50                                 
@@ -1868,7 +1868,7 @@ class victreebel(pokemon):
         self.species       = "Victreebel"                        
         self.nature        = self.generateNature()
         self.type          = ["Grass", "Poison"]                
-        self.level         = self.generateLevel(21, 100)           
+        #self.level         = self.generateLevel(21, 100)           
         self.hp            = 80                                
         self.attack        = 105                              
         self.defense       = 65                                 
@@ -1888,7 +1888,7 @@ class tentacool(pokemon):
         self.species       = "Tentacool"                        
         self.nature        = self.generateNature()
         self.type          = ["Water", "Poison"]                
-        self.level         = self.generateLevel(1, 29)           
+       # self.level         = self.generateLevel(1, 29)           
         self.hp            = 40                                
         self.attack        = 40                              
         self.defense       = 35                                 
@@ -1908,7 +1908,7 @@ class tentacruel(pokemon):
         self.species       = "Tentacruel"                        
         self.nature        = self.generateNature()
         self.type          = ["Water", "Poison"]                
-        self.level         = self.generateLevel(30, 100)           
+        #self.level         = self.generateLevel(30, 100)           
         self.hp            = 80                                
         self.attack        = 70                              
         self.defense       = 65                                 
@@ -1928,7 +1928,7 @@ class geodude(pokemon):
         self.species       = "Geodude"                        
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Ground"]                
-        self.level         = self.generateLevel(1, 24)           
+      #  self.level         = self.generateLevel(1, 24)           
         self.hp            = 40                                
         self.attack        = 80                              
         self.defense       = 100                                 
@@ -1948,7 +1948,7 @@ class alolanGeodude(pokemon):
         self.species       = "Alolan Geodude"                        
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Electric"]                
-        self.level         = self.generateLevel(1, 24)           
+      #  self.level         = self.generateLevel(1, 24)           
         self.hp            = 40                                
         self.attack        = 80                              
         self.defense       = 100                                 
@@ -1968,7 +1968,7 @@ class graveler(pokemon):
         self.species       = "Graveler"                        
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Ground"]                
-        self.level         = self.generateLevel(25, 100)           
+       # self.level         = self.generateLevel(25, 100)           
         self.hp            = 55                                
         self.attack        = 95                              
         self.defense       = 115                                 
@@ -1988,7 +1988,7 @@ class alolanGraveler(pokemon):
         self.species       = "Alolan Graveler"                        
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Electric"]                
-        self.level         = self.generateLevel(25, 100)           
+       # self.level         = self.generateLevel(25, 100)           
         self.hp            = 55                                
         self.attack        = 95                              
         self.defense       = 115                                 
@@ -2008,7 +2008,7 @@ class golem(pokemon):
         self.species       = "Golem"                        
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Ground"]                
-        self.level         = self.generateLevel(25, 100)           
+       # self.level         = self.generateLevel(25, 100)           
         self.hp            = 80                                
         self.attack        = 120                              
         self.defense       = 130                                 
@@ -2028,7 +2028,7 @@ class alolanGolem(pokemon):
         self.species       = "Alolan Golem"                        
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Electric"]                
-        self.level         = self.generateLevel(25, 100)           
+       # self.level         = self.generateLevel(25, 100)           
         self.hp            = 80                                
         self.attack        = 120                              
         self.defense       = 130                                 
@@ -2048,7 +2048,7 @@ class ponyta(pokemon):
         self.species       = "Ponyta"                        
         self.nature        = self.generateNature()
         self.type          = ["Fire"]                
-        self.level         = self.generateLevel(1, 39)           
+        #self.level         = self.generateLevel(1, 39)           
         self.hp            = 50                                
         self.attack        = 85                              
         self.defense       = 55                                 
@@ -2068,7 +2068,7 @@ class galarainPonyta(pokemon):
         self.species       = "Galarian Ponyta"                        
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]                
-        self.level         = self.generateLevel(1, 39)           
+      #  self.level         = self.generateLevel(1, 39)           
         self.hp            = 50                                
         self.attack        = 85                              
         self.defense       = 55                                 
@@ -2088,7 +2088,7 @@ class rapidash(pokemon):
         self.species       = "Rapidash"                        
         self.nature        = self.generateNature()
         self.type          = ["Fire"]                
-        self.level         = self.generateLevel(40, 100)           
+      #  self.level         = self.generateLevel(40, 100)           
         self.hp            = 65                                
         self.attack        = 100                              
         self.defense       = 70                                 
@@ -2108,7 +2108,7 @@ class galarianRapidash(pokemon):
         self.species       = "Galarian Rapidash"                        
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]                
-        self.level         = self.generateLevel(40, 100)           
+       # self.level         = self.generateLevel(40, 100)           
         self.hp            = 65                                
         self.attack        = 100                              
         self.defense       = 70                                 
@@ -2128,7 +2128,7 @@ class slowpoke(pokemon):
         self.species       = "Slowpoke"                        
         self.nature        = self.generateNature()
         self.type          = ["Water", "Psychic"]                
-        self.level         = self.generateLevel(1, 36)           
+       # self.level         = self.generateLevel(1, 36)           
         self.hp            = 90                                
         self.attack        = 65                              
         self.defense       = 65                                 
@@ -2148,7 +2148,7 @@ class slowbro(pokemon):
         self.species       = "Slowbro"                        
         self.nature        = self.generateNature()
         self.type          = ["Water", "Psychic"]                
-        self.level         = self.generateLevel(37, 100)           
+      #  self.level         = self.generateLevel(37, 100)           
         self.hp            = 95                                
         self.attack        = 75                              
         self.defense       = 110                                 
@@ -2168,7 +2168,7 @@ class magnemite(pokemon):
         self.species       = "Magnemite"                        
         self.nature        = self.generateNature()
         self.type          = ["Electric", "Steel"]                
-        self.level         = self.generateLevel(1, 29)           
+      #  self.level         = self.generateLevel(1, 29)           
         self.hp            = 25                                
         self.attack        = 35                              
         self.defense       = 70                                 
@@ -2188,7 +2188,7 @@ class magneton(pokemon):
         self.species       = "Magneton"                        
         self.nature        = self.generateNature()
         self.type          = ["Electric", "Steel"]                
-        self.level         = self.generateLevel(1, 29)           
+       # self.level         = self.generateLevel(1, 29)           
         self.hp            = 50                                
         self.attack        = 60                              
         self.defense       = 95                                 
@@ -2208,7 +2208,7 @@ class farfetchd(pokemon):
         self.species       = "Farfetch'd"                        
         self.nature        = self.generateNature()
         self.type          = ["Normal", "Flying"]                
-        self.level         = self.generateLevel(1, 100)           
+       # self.level         = self.generateLevel(1, 100)           
         self.hp            = 52                                
         self.attack        = 90                              
         self.defense       = 55                                 
@@ -2228,7 +2228,7 @@ class galarianFarfetchd(pokemon):
         self.species       = "Galarian Farfetch'd"                        
         self.nature        = self.generateNature()
         self.type          = ["Fighting"]                
-        self.level         = self.generateLevel(1, 100)           
+      #  self.level         = self.generateLevel(1, 100)           
         self.hp            = 52                                
         self.attack        = 95                              
         self.defense       = 55                                 
@@ -2248,7 +2248,7 @@ class doduo(pokemon):
         self.species       = "Doduo"                        
         self.nature        = self.generateNature()
         self.type          = ["Normal", "Flying"]                
-        self.level         = self.generateLevel(1, 30)           
+       # self.level         = self.generateLevel(1, 30)           
         self.hp            = 35                                
         self.attack        = 85                              
         self.defense       = 45                                 
@@ -2268,7 +2268,7 @@ class dodrio(pokemon):
         self.species       = "Dodrio"                        
         self.nature        = self.generateNature()
         self.type          = ["Normal", "Flying"]                
-        self.level         = self.generateLevel(31, 100)           
+       # self.level         = self.generateLevel(31, 100)           
         self.hp            = 60                                
         self.attack        = 110                              
         self.defense       = 70                                 
@@ -2288,7 +2288,7 @@ class seel(pokemon):
         self.species       = "Seel"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(1, 33)
+      #  self.level         = self.generateLevel(1, 33)
         self.hp            = 65
         self.attack        = 45
         self.defense       = 55
@@ -2308,7 +2308,7 @@ class dewgong(pokemon):
         self.species       = "Dewgong"
         self.nature        = self.generateNature()
         self.type          = ["Water", "Ice"]
-        self.level         = self.generateLevel(34, 100)
+      #  self.level         = self.generateLevel(34, 100)
         self.hp            = 90
         self.attack        = 70
         self.defense       = 80
@@ -2328,7 +2328,7 @@ class grimer(pokemon):
         self.species       = "Grimer"
         self.nature        = self.generateNature()
         self.type          = ["Poison"]
-        self.level         = self.generateLevel(1, 37)
+      #  self.level         = self.generateLevel(1, 37)
         self.hp            = 80
         self.attack        = 80
         self.defense       = 50
@@ -2348,7 +2348,7 @@ class alolanGrimer(pokemon):
         self.species       = "Alolan Grimer"
         self.nature        = self.generateNature()
         self.type          = ["Poison", "Dark"]
-        self.level         = self.generateLevel(1, 37)
+      #  self.level         = self.generateLevel(1, 37)
         self.hp            = 80
         self.attack        = 80
         self.defense       = 50
@@ -2368,7 +2368,7 @@ class muk(pokemon):
         self.species       = "Muk"
         self.nature        = self.generateNature()
         self.type          = ["Poison"]
-        self.level         = self.generateLevel(38, 100)
+       # self.level         = self.generateLevel(38, 100)
         self.hp            = 105
         self.attack        = 105
         self.defense       = 75
@@ -2388,7 +2388,7 @@ class alolanMuk(pokemon):
         self.species       = "Alolan Muk"
         self.nature        = self.generateNature()
         self.type          = ["Poison", "Dark"]
-        self.level         = self.generateLevel(38, 100)
+       # self.level         = self.generateLevel(38, 100)
         self.hp            = 105
         self.attack        = 105
         self.defense       = 75
@@ -2408,7 +2408,7 @@ class shellder(pokemon):
         self.species       = "Shellder"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 30
         self.attack        = 65
         self.defense       = 100
@@ -2428,7 +2428,7 @@ class cloyster(pokemon):
         self.species       = "Cloyster"
         self.nature        = self.generateNature()
         self.type          = ["Water", "Ice"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 50
         self.attack        = 95
         self.defense       = 180
@@ -2448,7 +2448,7 @@ class gastly(pokemon):
         self.species       = "Gastly"
         self.nature        = self.generateNature()
         self.type          = ["Ghost", "Poison"]
-        self.level         = self.generateLevel(1, 24)
+     #   self.level         = self.generateLevel(1, 24)
         self.hp            = 30
         self.attack        = 35
         self.defense       = 30
@@ -2468,7 +2468,7 @@ class haunter(pokemon):
         self.species       = "Haunter"
         self.nature        = self.generateNature()
         self.type          = ["Ghost", "Poison"]
-        self.level         = self.generateLevel(25, 100)
+       # self.level         = self.generateLevel(25, 100)
         self.hp            = 45
         self.attack        = 50
         self.defense       = 45
@@ -2488,7 +2488,7 @@ class gengar(pokemon):
         self.species       = "Gengar"
         self.nature        = self.generateNature()
         self.type          = ["Ghost", "Poison"]
-        self.level         = self.generateLevel(25, 100)
+      #  self.level         = self.generateLevel(25, 100)
         self.hp            = 60
         self.attack        = 65
         self.defense       = 60
@@ -2508,7 +2508,7 @@ class onix(pokemon):
         self.species       = "Onix"
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Ground"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 35
         self.attack        = 45
         self.defense       = 160
@@ -2528,7 +2528,7 @@ class drowzee(pokemon):
         self.species       = "Drowzee"
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]
-        self.level         = self.generateLevel(1, 25)
+      #  self.level         = self.generateLevel(1, 25)
         self.hp            = 60
         self.attack        = 48
         self.defense       = 45
@@ -2548,7 +2548,7 @@ class hypno(pokemon):
         self.species       = "Hypno"
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]
-        self.level         = self.generateLevel(26, 100)
+     #   self.level         = self.generateLevel(26, 100)
         self.hp            = 85
         self.attack        = 73
         self.defense       = 70
@@ -2568,7 +2568,7 @@ class krabby(pokemon):
         self.species       = "Krabby"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(1, 27)
+     #   self.level         = self.generateLevel(1, 27)
         self.hp            = 30
         self.attack        = 105
         self.defense       = 90
@@ -2588,7 +2588,7 @@ class kingler(pokemon):
         self.species       = "Kingler"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(28, 100)
+      #  self.level         = self.generateLevel(28, 100)
         self.hp            = 55
         self.attack        = 130
         self.defense       = 115
@@ -2608,7 +2608,7 @@ class voltorb(pokemon):
         self.species       = "Voltorb"
         self.nature        = self.generateNature()
         self.type          = ["Electric"]
-        self.level         = self.generateLevel(1, 29)
+      #  self.level         = self.generateLevel(1, 29)
         self.hp            = 40
         self.attack        = 30
         self.defense       = 50
@@ -2628,7 +2628,7 @@ class electrode(pokemon):
         self.species       = "Electrode"
         self.nature        = self.generateNature()
         self.type          = ["Electric"]
-        self.level         = self.generateLevel(30, 100)
+      #  self.level         = self.generateLevel(30, 100)
         self.hp            = 60
         self.attack        = 50
         self.defense       = 70
@@ -2648,7 +2648,7 @@ class exeggcute(pokemon):
         self.species       = "Exeggcute"
         self.nature        = self.generateNature()
         self.type          = ["Grass", "Psychic"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 60
         self.attack        = 40
         self.defense       = 80
@@ -2668,7 +2668,7 @@ class exeggutor(pokemon):
         self.species       = "Exeggutor"
         self.nature        = self.generateNature()
         self.type          = ["Grass", "Psychic"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 95
         self.attack        = 95
         self.defense       = 85
@@ -2688,7 +2688,7 @@ class alolanExeggutor(pokemon):
         self.species       = "Alolan Exeggutor"
         self.nature        = self.generateNature()
         self.type          = ["Grass", "Dragon"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 95
         self.attack        = 105
         self.defense       = 85
@@ -2708,7 +2708,7 @@ class cubone(pokemon):
         self.species       = "Cubone"
         self.nature        = self.generateNature()
         self.type          = ["Ground"]
-        self.level         = self.generateLevel(1, 27)
+      #  self.level         = self.generateLevel(1, 27)
         self.hp            = 50
         self.attack        = 50
         self.defense       = 95
@@ -2728,7 +2728,7 @@ class marowak(pokemon):
         self.species       = "Marowak"
         self.nature        = self.generateNature()
         self.type          = ["Ground"]
-        self.level         = self.generateLevel(28, 100)
+       # self.level         = self.generateLevel(28, 100)
         self.hp            = 60
         self.attack        = 80
         self.defense       = 110
@@ -2748,7 +2748,7 @@ class alolanMarowak(pokemon):
         self.species       = "Alolan Marowak"
         self.nature        = self.generateNature()
         self.type          = ["Fire", "Ghost"]
-        self.level         = self.generateLevel(28, 100)
+       # self.level         = self.generateLevel(28, 100)
         self.hp            = 60
         self.attack        = 80
         self.defense       = 110
@@ -2768,7 +2768,7 @@ class hitmonlee(pokemon):
         self.species       = "Hitmonlee"
         self.nature        = self.generateNature()
         self.type          = ["Fighting"]
-        self.level         = self.generateLevel(20, 100)
+      #  self.level         = self.generateLevel(20, 100)
         self.hp            = 50
         self.attack        = 120
         self.defense       = 53
@@ -2788,7 +2788,7 @@ class hitmonchan(pokemon):
         self.species       = "Hitmonchan"
         self.nature        = self.generateNature()
         self.type          = ["Fighting"]
-        self.level         = self.generateLevel(20, 100)
+      #  self.level         = self.generateLevel(20, 100)
         self.hp            = 50
         self.attack        = 105
         self.defense       = 79
@@ -2808,7 +2808,7 @@ class lickitung(pokemon):
         self.species       = "Lickitung"
         self.nature        = self.generateNature()
         self.type          = ["Normal"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 90
         self.attack        = 55
         self.defense       = 75
@@ -2828,7 +2828,7 @@ class koffing(pokemon):
         self.species       = "Koffing"
         self.nature        = self.generateNature()
         self.type          = ["Poison"]
-        self.level         = self.generateLevel(1, 34)
+       # self.level         = self.generateLevel(1, 34)
         self.hp            = 40
         self.attack        = 65
         self.defense       = 95
@@ -2848,7 +2848,7 @@ class weezing(pokemon):
         self.species       = "Weezing"
         self.nature        = self.generateNature()
         self.type          = ["Poison"]
-        self.level         = self.generateLevel(35, 100)
+       # self.level         = self.generateLevel(35, 100)
         self.hp            = 65
         self.attack        = 90
         self.defense       = 120
@@ -2868,7 +2868,7 @@ class galarianWeezing(pokemon):
         self.species       = "Galarian Weezing"
         self.nature        = self.generateNature()
         self.type          = ["Poison", "Fairy"]
-        self.level         = self.generateLevel(35, 100)
+       # self.level         = self.generateLevel(35, 100)
         self.hp            = 65
         self.attack        = 90
         self.defense       = 120
@@ -2888,7 +2888,7 @@ class rhyhorn(pokemon):
         self.species       = "Rhyhorn"
         self.nature        = self.generateNature()
         self.type          = ["Ground", "Rock"]
-        self.level         = self.generateLevel(1, 41)
+      #  self.level         = self.generateLevel(1, 41)
         self.hp            = 80
         self.attack        = 85
         self.defense       = 95
@@ -2908,7 +2908,7 @@ class rhydon(pokemon):
         self.species       = "Rhydon"
         self.nature        = self.generateNature()
         self.type          = ["Ground", "Rock"]
-        self.level         = self.generateLevel(42, 100)
+      #  self.level         = self.generateLevel(42, 100)
         self.hp            = 105
         self.attack        = 130
         self.defense       = 120
@@ -2928,7 +2928,7 @@ class chansey(pokemon):
         self.species       = "Chansey"
         self.nature        = self.generateNature()
         self.type          = ["Normal"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 250
         self.attack        = 5
         self.defense       = 5
@@ -2948,7 +2948,7 @@ class tangela(pokemon):
         self.species       = "Tangela"
         self.nature        = self.generateNature()
         self.type          = ["Grass"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 65
         self.attack        = 55
         self.defense       = 115
@@ -2968,7 +2968,7 @@ class kangaskhan(pokemon):
         self.species       = "Kangaskhan"
         self.nature        = self.generateNature()
         self.type          = ["Normal"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 105
         self.attack        = 95
         self.defense       = 80
@@ -2988,7 +2988,7 @@ class horsea(pokemon):
         self.species       = "Horsea"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(1, 31)
+       # self.level         = self.generateLevel(1, 31)
         self.hp            = 30
         self.attack        = 40
         self.defense       = 70
@@ -3008,7 +3008,7 @@ class seadra(pokemon):
         self.species       = "Seadra"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(32, 100)
+        #self.level         = self.generateLevel(32, 100)
         self.hp            = 55
         self.attack        = 65
         self.defense       = 95
@@ -3028,7 +3028,7 @@ class goldeen(pokemon):
         self.species       = "Goldeen"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(1, 32)
+      #  self.level         = self.generateLevel(1, 32)
         self.hp            = 45
         self.attack        = 67
         self.defense       = 60
@@ -3048,7 +3048,7 @@ class seaking(pokemon):
         self.species       = "Seaking"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(33, 100)
+       # self.level         = self.generateLevel(33, 100)
         self.hp            = 80
         self.attack        = 92
         self.defense       = 65
@@ -3068,7 +3068,7 @@ class staryu(pokemon):
         self.species       = "Staryu"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 30
         self.attack        = 45
         self.defense       = 55
@@ -3088,7 +3088,7 @@ class starmie(pokemon):
         self.species       = "Starmie"
         self.nature        = self.generateNature()
         self.type          = ["Water", "Psychic"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 60
         self.attack        = 75
         self.defense       = 85
@@ -3108,7 +3108,7 @@ class mrMime(pokemon):
         self.species       = "Mr. Mime"
         self.nature        = self.generateNature()
         self.type          = ["Psychic", "Fairy"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 40
         self.attack        = 45
         self.defense       = 65
@@ -3128,7 +3128,7 @@ class galarianMrMime(pokemon):
         self.species       = "Galarian Mr. Mime"
         self.nature        = self.generateNature()
         self.type          = ["Ice", "Psychic"]
-        self.level         = self.generateLevel(1, 41)
+     #   self.level         = self.generateLevel(1, 41)
         self.hp            = 50
         self.attack        = 65
         self.defense       = 65
@@ -3148,7 +3148,7 @@ class sycther(pokemon):
         self.species       = "Scyther"
         self.nature        = self.generateNature()
         self.type          = ["Bug", "Flying"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 70
         self.attack        = 110
         self.defense       = 80
@@ -3168,7 +3168,7 @@ class jynx(pokemon):
         self.species       = "Jynx"
         self.nature        = self.generateNature()
         self.type          = ["Ice", "Psychic"]
-        self.level         = self.generateLevel(1, 29)
+      #  self.level         = self.generateLevel(1, 29)
         self.hp            = 65
         self.attack        = 50
         self.defense       = 35
@@ -3188,7 +3188,7 @@ class electabuzz(pokemon):
         self.species       = "Electabuzz"
         self.nature        = self.generateNature()
         self.type          = ["Electric"]
-        self.level         = self.generateLevel(30, 100)
+      #  self.level         = self.generateLevel(30, 100)
         self.hp            = 65
         self.attack        = 83
         self.defense       = 57
@@ -3208,7 +3208,7 @@ class magmar(pokemon):
         self.species       = "Magmar"
         self.nature        = self.generateNature()
         self.type          = ["Fire"]
-        self.level         = self.generateLevel(30, 100)
+      #  self.level         = self.generateLevel(30, 100)
         self.hp            = 65
         self.attack        = 95
         self.defense       = 57
@@ -3228,7 +3228,7 @@ class pinsir(pokemon):
         self.species       = "Pinsir"
         self.nature        = self.generateNature()
         self.type          = ["Bug"]
-        self.level         = self.generateLevel(1, 100)
+     #   self.level         = self.generateLevel(1, 100)
         self.hp            = 65
         self.attack        = 125
         self.defense       = 100
@@ -3248,7 +3248,7 @@ class tauros(pokemon):
         self.species       = "Pinsir"
         self.nature        = self.generateNature()
         self.type          = ["Normal"]
-        self.level         = self.generateLevel(1, 100)
+     #   self.level         = self.generateLevel(1, 100)
         self.hp            = 75
         self.attack        = 100
         self.defense       = 95
@@ -3268,7 +3268,7 @@ class magikarp(pokemon):
         self.species       = "Magikarp"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(1, 19)
+      #  self.level         = self.generateLevel(1, 19)
         self.hp            = 20
         self.attack        = 10
         self.defense       = 55
@@ -3288,7 +3288,7 @@ class gyarados(pokemon):
         self.species       = "Gyarados"
         self.nature        = self.generateNature()
         self.type          = ["Water", "Flying"]
-        self.level         = self.generateLevel(20, 100)
+     #   self.level         = self.generateLevel(20, 100)
         self.hp            = 95
         self.attack        = 125
         self.defense       = 79
@@ -3308,7 +3308,7 @@ class lapras(pokemon):
         self.species       = "Lapras"
         self.nature        = self.generateNature()
         self.type          = ["Water", "Ice"]
-        self.level         = self.generateLevel(1, 100)
+     #   self.level         = self.generateLevel(1, 100)
         self.hp            = 135
         self.attack        = 85
         self.defense       = 80
@@ -3328,7 +3328,7 @@ class ditto(pokemon):
         self.species       = "Ditto"
         self.nature        = self.generateNature()
         self.type          = ["Normal"]
-        self.level         = self.generateLevel(1, 100)
+    #    self.level         = self.generateLevel(1, 100)
         self.hp            = 48
         self.attack        = 48
         self.defense       = 48
@@ -3348,7 +3348,7 @@ class eevee(pokemon):
         self.species       = "Eevee"
         self.nature        = self.generateNature()
         self.type          = ["Normal"]
-        self.level         = self.generateLevel(1, 100)
+    #    self.level         = self.generateLevel(1, 100)
         self.hp            = 55
         self.attack        = 55
         self.defense       = 50
@@ -3368,7 +3368,7 @@ class vaporeon(pokemon):
         self.species       = "Vaporeon"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(1, 100)
+   #     self.level         = self.generateLevel(1, 100)
         self.hp            = 130
         self.attack        = 65
         self.defense       = 60
@@ -3388,7 +3388,7 @@ class jolteon(pokemon):
         self.species       = "Jolteon"
         self.nature        = self.generateNature()
         self.type          = ["Electric"]
-        self.level         = self.generateLevel(1, 100)
+    #    self.level         = self.generateLevel(1, 100)
         self.hp            = 65
         self.attack        = 65
         self.defense       = 60
@@ -3408,7 +3408,7 @@ class flareon(pokemon):
         self.species       = "Flareon"
         self.nature        = self.generateNature()
         self.type          = ["Fire"]
-        self.level         = self.generateLevel(1, 100)
+     #   self.level         = self.generateLevel(1, 100)
         self.hp            = 65
         self.attack        = 130
         self.defense       = 60
@@ -3428,7 +3428,7 @@ class porygon(pokemon):
         self.species       = "Porygon"
         self.nature        = self.generateNature()
         self.type          = ["Normal"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 65
         self.attack        = 60
         self.defense       = 70
@@ -3448,7 +3448,7 @@ class omanyte(pokemon):
         self.species       = "Omanyte"
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Water"]
-        self.level         = self.generateLevel(1, 39)
+     #   self.level         = self.generateLevel(1, 39)
         self.hp            = 35
         self.attack        = 40
         self.defense       = 100
@@ -3468,7 +3468,7 @@ class omastar(pokemon):
         self.species       = "Omastar"
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Water"]
-        self.level         = self.generateLevel(40, 100)
+       # self.level         = self.generateLevel(40, 100)
         self.hp            = 70
         self.attack        = 60
         self.defense       = 125
@@ -3488,7 +3488,7 @@ class kabuto(pokemon):
         self.species       = "Kabuto"
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Water"]
-        self.level         = self.generateLevel(1, 39)
+     #   self.level         = self.generateLevel(1, 39)
         self.hp            = 30
         self.attack        = 80
         self.defense       = 90
@@ -3508,7 +3508,7 @@ class kabutops(pokemon):
         self.species       = "Kabutops"
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Water"]
-        self.level         = self.generateLevel(40, 100)
+     #   self.level         = self.generateLevel(40, 100)
         self.hp            = 60
         self.attack        = 115
         self.defense       = 105
@@ -3528,7 +3528,7 @@ class aerodactyl(pokemon):
         self.species       = "Aerodactyl"
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Flying"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 80
         self.attack        = 105
         self.defense       = 65
@@ -3548,7 +3548,7 @@ class snorlax(pokemon):
         self.species       = "Snorlax"
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Flying"]
-        self.level         = self.generateLevel(1, 100)
+     #   self.level         = self.generateLevel(1, 100)
         self.hp            = 160
         self.attack        = 110
         self.defense       = 65
@@ -3568,7 +3568,7 @@ class articuno(pokemon):
         self.species       = "Articuno"
         self.nature        = self.generateNature()
         self.type          = ["Ice", "Flying"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 90
         self.attack        = 85
         self.defense       = 100
@@ -3588,7 +3588,7 @@ class zapdos(pokemon):
         self.species       = "Zapdos"
         self.nature        = self.generateNature()
         self.type          = ["Electric", "Flying"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 90
         self.attack        = 90
         self.defense       = 85
@@ -3608,7 +3608,7 @@ class moltres(pokemon):
         self.species       = "Moltres"
         self.nature        = self.generateNature()
         self.type          = ["Fire", "Flying"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 90
         self.attack        = 100
         self.defense       = 90
@@ -3628,7 +3628,7 @@ class dratini(pokemon):
         self.species       = "Dratini"
         self.nature        = self.generateNature()
         self.type          = ["Dragon"]
-        self.level         = self.generateLevel(1, 29)
+      #  self.level         = self.generateLevel(1, 29)
         self.hp            = 41
         self.attack        = 64
         self.defense       = 45
@@ -3648,7 +3648,7 @@ class dragonair(pokemon):
         self.species       = "Dragonair"
         self.nature        = self.generateNature()
         self.type          = ["Dragon"]
-        self.level         = self.generateLevel(30, 54)
+      #  self.level         = self.generateLevel(30, 54)
         self.hp            = 61
         self.attack        = 84
         self.defense       = 65
@@ -3667,7 +3667,7 @@ class dragonair(pokemon):
         self.species       = "Dragonite"
         self.nature        = self.generateNature()
         self.type          = ["Dragon", "Flying"]
-        self.level         = self.generateLevel(55, 100)
+       # self.level         = self.generateLevel(55, 100)
         self.hp            = 91
         self.attack        = 134
         self.defense       = 95
@@ -3688,7 +3688,7 @@ class mewtwo(pokemon):
         self.species       = "Mewtwo"
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 106
         self.attack        = 110
         self.defense       = 90
@@ -3708,7 +3708,7 @@ class mew(pokemon):
         self.species       = "Mew"
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 100
         self.attack        = 100
         self.defense       = 100
@@ -3749,14 +3749,35 @@ class bayleef(pokemon):
         self.species       = "Bayleef"
         self.nature        = self.generateNature()
         self.type          = ["Grass"]
-        self.maxLevel      = 16
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
-        self.hp            = 45
-        self.attack        = 49
-        self.defense       = 65
-        self.spAtk         = 49
-        self.spDef         = 65
-        self.speed         = 45
+      # self.maxLevel      = 16
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 60
+        self.attack        = 62
+        self.defense       = 80
+        self.spAtk         = 63
+        self.spDef         = 80
+        self.speed         = 60
+        self.friend        = 70
+        self.gender        = self.generateGender(87.5)
+        self.abilities     = []
+        self.ability       = "Overgrow"
+        self.hiddenAbility = "Leaf Guard"
+        self.hidAbBool     = False
+        
+class meganium(pokemon):
+    def __init__(self):
+        self.pokedex       = 154.0
+        self.species       = "Meganium"
+        self.nature        = self.generateNature()
+        self.type          = ["Grass"]
+      # self.maxLevel      = 16
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 80
+        self.attack        = 82
+        self.defense       = 100
+        self.spAtk         = 83
+        self.spDef         = 100
+        self.speed         = 80
         self.friend        = 70
         self.gender        = self.generateGender(87.5)
         self.abilities     = []
@@ -3770,14 +3791,56 @@ class cyndaquil(pokemon):
         self.species       = "Cyndaquil"
         self.nature        = self.generateNature()
         self.type          = ["Fire"]
-        self.maxLevel      = 14
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+       # self.maxLevel      = 14
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 39
         self.attack        = 52
         self.defense       = 43
         self.spAtk         = 60
         self.spDef         = 50
         self.speed         = 65
+        self.friend        = 70
+        self.gender        = self.generateGender(87.5)
+        self.abilities     = []
+        self.ability       = "Blaze"
+        self.hiddenAbility = "Flash Fire"
+        self.hidAbBool     = False
+        
+class quilava(pokemon):
+    def __init__(self):
+        self.pokedex       = 156.0
+        self.species       = "Quilava"
+        self.nature        = self.generateNature()
+        self.type          = ["Fire"]
+      # self.maxLevel      = 16
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 58
+        self.attack        = 64
+        self.defense       = 58
+        self.spAtk         = 80
+        self.spDef         = 65
+        self.speed         = 80
+        self.friend        = 70
+        self.gender        = self.generateGender(87.5)
+        self.abilities     = []
+        self.ability       = "Blaze"
+        self.hiddenAbility = "Flash Fire"
+        self.hidAbBool     = False
+        
+class typhlosion(pokemon):
+    def __init__(self):
+        self.pokedex       = 157.0
+        self.species       = "Typhlosion"
+        self.nature        = self.generateNature()
+        self.type          = ["Fire"]
+      # self.maxLevel      = 16
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 78
+        self.attack        = 84
+        self.defense       = 78
+        self.spAtk         = 109
+        self.spDef         = 85
+        self.speed         = 100
         self.friend        = 70
         self.gender        = self.generateGender(87.5)
         self.abilities     = []
@@ -3791,8 +3854,8 @@ class totodile(pokemon):
         self.species       = "Totodile"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.maxLevel      = 18
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 50
         self.attack        = 65
         self.defense       = 64
@@ -3805,6 +3868,90 @@ class totodile(pokemon):
         self.ability       = "Torrent"
         self.hiddenAbility = "Sheer Force"
         self.hidAbBool     = False
+        
+class croconaw(pokemon):
+    def __init__(self):
+        self.pokedex       = 159.0
+        self.species       = "Croconaw"
+        self.nature        = self.generateNature()
+        self.type          = ["Water"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 65
+        self.attack        = 80
+        self.defense       = 80
+        self.spAtk         = 59
+        self.spDef         = 63
+        self.speed         = 58
+        self.friend        = 70
+        self.gender        = self.generateGender(87.5)
+        self.abilities     = []
+        self.ability       = "Torrent"
+        self.hiddenAbility = "Sheer Force"
+        self.hidAbBool     = False
+        
+class feraligatr(pokemon):
+    def __init__(self):
+        self.pokedex       = 160.0
+        self.species       = "Feraligatr"
+        self.nature        = self.generateNature()
+        self.type          = ["Water"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 85
+        self.attack        = 105
+        self.defense       = 100
+        self.spAtk         = 79
+        self.spDef         = 83
+        self.speed         = 78
+        self.friend        = 70
+        self.gender        = self.generateGender(87.5)
+        self.abilities     = []
+        self.ability       = "Torrent"
+        self.hiddenAbility = "Sheer Force"
+        self.hidAbBool     = False
+        
+class sentret(pokemon):
+    def __init__(self):
+        self.pokedex       = 161.0
+        self.species       = "sentret"
+        self.nature        = self.generateNature()
+        self.type          = ["Normal"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 35
+        self.attack        = 46
+        self.defense       = 34
+        self.spAtk         = 35
+        self.spDef         = 45
+        self.speed         = 20
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Run Away", "Keen Eye"]
+        self.ability       = ""
+        self.hiddenAbility = "Frisk"
+        self.hidAbBool     = False
+        
+class furret(pokemon):
+    def __init__(self):
+        self.pokedex       = 162.0
+        self.species       = "Furret"
+        self.nature        = self.generateNature()
+        self.type          = ["Normal"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 85
+        self.attack        = 76
+        self.defense       = 64
+        self.spAtk         = 45
+        self.spDef         = 55
+        self.speed         = 90
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Run Away", "Keen Eye"]
+        self.ability       = ""
+        self.hiddenAbility = "Frisk"
+        self.hidAbBool     = False
 
 class raikou(pokemon):
     def __init__(self):
@@ -3812,7 +3959,7 @@ class raikou(pokemon):
         self.species       = "Raikou"
         self.nature        = self.generateNature()
         self.type          = ["Electric"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 90
         self.attack        = 85
         self.defense       = 75
@@ -3832,7 +3979,7 @@ class entei(pokemon):
         self.species       = "Entei"
         self.nature        = self.generateNature()
         self.type          = ["Fire"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 115
         self.attack        = 115
         self.defense       = 85
@@ -3852,7 +3999,7 @@ class suicune(pokemon):
         self.species       = "Suicune"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 100
         self.attack        = 75
         self.defense       = 115
@@ -3872,7 +4019,7 @@ class lugia(pokemon):
         self.species       = "Lugia"
         self.nature        = self.generateNature()
         self.type          = ["Psychic", "Flying"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 106
         self.attack        = 90
         self.defense       = 130
@@ -3892,7 +4039,7 @@ class hoOh(pokemon):
         self.species       = "Ho-Oh"
         self.nature        = self.generateNature()
         self.type          = ["Fire", "Flying"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 106
         self.attack        = 130
         self.defense       = 90
@@ -3912,7 +4059,7 @@ class celebi(pokemon):
         self.species       = "Celebi"
         self.nature        = self.generateNature()
         self.type          = ["Psychic", "Grass"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 100
         self.attack        = 100
         self.defense       = 100
@@ -3932,8 +4079,8 @@ class treecko(pokemon):
         self.species       = "Treecko"
         self.nature        = self.generateNature()
         self.type          = ["Grass"]
-        self.maxLevel      = 16
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+       # self.maxLevel      = 16
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 40
         self.attack        = 45
         self.defense       = 35
@@ -3953,8 +4100,8 @@ class torchic(pokemon):
         self.species       = "Torchic"
         self.nature        = self.generateNature()
         self.type          = ["Fire"]
-        self.maxLevel      = 16
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+       # self.maxLevel      = 16
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 45
         self.attack        = 60
         self.defense       = 40
@@ -3974,8 +4121,8 @@ class mudkip(pokemon):
         self.species       = "Mudkip"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.maxLevel      = 16
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+       # self.maxLevel      = 16
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 50
         self.attack        = 70
         self.defense       = 50
@@ -3995,7 +4142,7 @@ class regirock(pokemon):
         self.species       = "Regirock"
         self.nature        = self.generateNature()
         self.type          = ["Rock"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 80
         self.attack        = 100
         self.defense       = 200
@@ -4015,7 +4162,7 @@ class regice(pokemon):
         self.species       = "Regice"
         self.nature        = self.generateNature()
         self.type          = ["Ice"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 80
         self.attack        = 50
         self.defense       = 100
@@ -4035,7 +4182,7 @@ class registeel(pokemon):
         self.species       = "Registeel"
         self.nature        = self.generateNature()
         self.type          = ["Steel"]
-        self.level         = self.generateLevel(1, 100)
+     #   self.level         = self.generateLevel(1, 100)
         self.hp            = 80
         self.attack        = 75
         self.defense       = 150
@@ -4055,7 +4202,7 @@ class latias(pokemon):
         self.species       = "Latias"
         self.nature        = self.generateNature()
         self.type          = ["Dragon", "Psychic"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 80
         self.attack        = 80
         self.defense       = 90
@@ -4075,7 +4222,7 @@ class latios(pokemon):
         self.species       = "Latios"
         self.nature        = self.generateNature()
         self.type          = ["Dragon", "Psychic"]
-        self.level         = self.generateLevel(1, 100)
+     #   self.level         = self.generateLevel(1, 100)
         self.hp            = 80
         self.attack        = 90
         self.defense       = 80
@@ -4095,7 +4242,7 @@ class kyogre(pokemon):
         self.species       = "Kyogre"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 100
         self.attack        = 100
         self.defense       = 90
@@ -4115,7 +4262,7 @@ class groudon(pokemon):
         self.species       = "Groudon"
         self.nature        = self.generateNature()
         self.type          = ["Ground"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 100
         self.attack        = 150
         self.defense       = 140
@@ -4135,7 +4282,7 @@ class rayquaza(pokemon):
         self.species       = "Rayquaza"
         self.nature        = self.generateNature()
         self.type          = ["Dragon", "Flying"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 105
         self.attack        = 150
         self.defense       = 90
@@ -4155,7 +4302,7 @@ class jirachi(pokemon):
         self.species       = "Jirachi"
         self.nature        = self.generateNature()
         self.type          = ["Steel", "Psychic"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 100
         self.attack        = 100
         self.defense       = 100
@@ -4175,7 +4322,7 @@ class deoxys(pokemon):
         self.species       = "Deoxys"
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 50
         self.attack        = 150
         self.defense       = 50
@@ -4195,8 +4342,8 @@ class turtwig(pokemon):
         self.species       = "Turtwig"
         self.nature        = self.generateNature()
         self.type          = ["Grass"]
-        self.maxLevel      = 18
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+       # self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 55
         self.attack        = 68
         self.defense       = 64
@@ -4216,8 +4363,8 @@ class chimchar(pokemon):
         self.species       = "Chimchar"
         self.nature        = self.generateNature()
         self.type          = ["Fire"]
-        self.maxLevel      = 14
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+       # self.maxLevel      = 14
+      #  self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 44
         self.attack        = 58
         self.defense       = 44
@@ -4237,8 +4384,8 @@ class piplup(pokemon):
         self.species       = "Piplup"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.maxLevel      = 16
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+       # self.maxLevel      = 16
+      #  self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 53
         self.attack        = 51
         self.defense       = 53
@@ -4258,7 +4405,7 @@ class uxie(pokemon):
         self.species       = "Uxie"
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 75
         self.attack        = 75
         self.defense       = 130
@@ -4278,7 +4425,7 @@ class mesprit(pokemon):
         self.species       = "Mesprit"
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 80
         self.attack        = 105
         self.defense       = 105
@@ -4298,7 +4445,7 @@ class azelf(pokemon):
         self.species       = "Azelf"
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 75
         self.attack        = 125
         self.defense       = 70
@@ -4318,7 +4465,7 @@ class dialga(pokemon):
         self.species       = "Dialga"
         self.nature        = self.generateNature()
         self.type          = ["Steel", "Dragon"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 100
         self.attack        = 120
         self.defense       = 120
@@ -4338,7 +4485,7 @@ class palkia(pokemon):
         self.species       = "Palkia"
         self.nature        = self.generateNature()
         self.type          = ["Water", "Dragon"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 90
         self.attack        = 120
         self.defense       = 100
@@ -4358,7 +4505,7 @@ class heatran(pokemon):
         self.species       = "Heatran"
         self.nature        = self.generateNature()
         self.type          = ["Fire", "Steel"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 91
         self.attack        = 90
         self.defense       = 106
@@ -4378,7 +4525,7 @@ class regigigas(pokemon):
         self.species       = "Regigigas"
         self.nature        = self.generateNature()
         self.type          = ["Normal"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 110
         self.attack        = 160
         self.defense       = 110
@@ -4398,7 +4545,7 @@ class giratina(pokemon):
         self.species       = "Giratina"
         self.nature        = self.generateNature()
         self.type          = ["Ghost", "Dragon"]
-        self.level         = self.generateLevel(1, 100)
+        #self.level         = self.generateLevel(1, 100)
         self.hp            = 150
         self.attack        = 100
         self.defense       = 120
@@ -4418,7 +4565,7 @@ class cresselia(pokemon):
         self.species       = "Cresselia"
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 120
         self.attack        = 70
         self.defense       = 120
@@ -4438,7 +4585,7 @@ class phione(pokemon):
         self.species       = "Phione"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 80
         self.attack        = 80
         self.defense       = 80
@@ -4458,7 +4605,7 @@ class manaphy(pokemon):
         self.species       = "Manaphy"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 100
         self.attack        = 100
         self.defense       = 100
@@ -4478,7 +4625,7 @@ class darkrai(pokemon):
         self.species       = "Darkrai"
         self.nature        = self.generateNature()
         self.type          = ["Dark"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 70
         self.attack        = 90
         self.defense       = 90
@@ -4498,7 +4645,7 @@ class shaymin(pokemon):
         self.species       = "Shaymin"
         self.nature        = self.generateNature()
         self.type          = ["Grass"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 100
         self.attack        = 100
         self.defense       = 100
@@ -4518,7 +4665,7 @@ class arceus(pokemon):
         self.species       = "Arceus"
         self.nature        = self.generateNature()
         self.type          = ["Normal"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 120
         self.attack        = 120
         self.defense       = 120
@@ -4538,7 +4685,7 @@ class victini(pokemon):
         self.species       = "Victini"
         self.nature        = self.generateNature()
         self.type          = ["Psychic", "Fire"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 100
         self.attack        = 100
         self.defense       = 100
@@ -4558,8 +4705,8 @@ class snivy(pokemon):
         self.species       = "Snivy"
         self.nature        = self.generateNature()
         self.type          = ["Grass"]
-        self.maxLevel      = 17
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+       # self.maxLevel      = 17
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 45
         self.attack        = 45
         self.defense       = 55
@@ -4579,8 +4726,8 @@ class tepig(pokemon):
         self.species       = "Tepig"
         self.nature        = self.generateNature()
         self.type          = ["Fire"]
-        self.maxLevel      = 17
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+       # self.maxLevel      = 17
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 65
         self.attack        = 63
         self.defense       = 45
@@ -4600,8 +4747,8 @@ class oshawott(pokemon):
         self.species       = "Oshawott"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.maxLevel      = 17
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+      #  self.maxLevel      = 17
+      #  self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 55
         self.attack        = 55
         self.defense       = 45
@@ -4621,7 +4768,7 @@ class cobalion(pokemon):
         self.species       = "Coballion"
         self.nature        = self.generateNature()
         self.type          = ["Steel", "Fight"]
-        self.level         = self.generateLevel(1, 100)
+        #self.level         = self.generateLevel(1, 100)
         self.hp            = 91
         self.attack        = 90
         self.defense       = 129
@@ -4641,7 +4788,7 @@ class terrakion(pokemon):
         self.species       = "Terrakion"
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Fight"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 91
         self.attack        = 129
         self.defense       = 90
@@ -4661,7 +4808,7 @@ class virizion(pokemon):
         self.species       = "Virizion"
         self.nature        = self.generateNature()
         self.type          = ["Grass", "Fight"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 91
         self.attack        = 90
         self.defense       = 72
@@ -4681,7 +4828,7 @@ class tornadus(pokemon):
         self.species       = "Tornadus"
         self.nature        = self.generateNature()
         self.type          = ["Flying"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 79
         self.attack        = 115
         self.defense       = 70
@@ -4701,7 +4848,7 @@ class thundurus(pokemon):
         self.species       = "Thundurus"
         self.nature        = self.generateNature()
         self.type          = ["Electric", "Flying"]
-        self.level         = self.generateLevel(1, 100)
+        #self.level         = self.generateLevel(1, 100)
         self.hp            = 79
         self.attack        = 115
         self.defense       = 70
@@ -4721,7 +4868,7 @@ class reshiram(pokemon):
         self.species       = "Reshiram"
         self.nature        = self.generateNature()
         self.type          = ["Dragon", "Fire"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 100
         self.attack        = 120
         self.defense       = 100
@@ -4741,7 +4888,7 @@ class zekrom(pokemon):
         self.species       = "Zekrom"
         self.nature        = self.generateNature()
         self.type          = ["Dragon", "Electric"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 100
         self.attack        = 150
         self.defense       = 120
@@ -4761,7 +4908,7 @@ class landorus(pokemon):
         self.species       = "Landorus"
         self.nature        = self.generateNature()
         self.type          = ["Electric", "Flying"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 89
         self.attack        = 125
         self.defense       = 90
@@ -4781,7 +4928,7 @@ class kyurem(pokemon):
         self.species       = "Kyurem"
         self.nature        = self.generateNature()
         self.type          = ["Dragon", "Ice"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 125
         self.attack        = 130
         self.defense       = 90
@@ -4801,7 +4948,7 @@ class keldeo(pokemon):
         self.species       = "Keldeo"
         self.nature        = self.generateNature()
         self.type          = ["Water", "Fight"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 91
         self.attack        = 72
         self.defense       = 90
@@ -4821,7 +4968,7 @@ class meloetta(pokemon):
         self.species       = "Meloetta"
         self.nature        = self.generateNature()
         self.type          = ["Normal", "Psychic"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 100
         self.attack        = 77
         self.defense       = 77
@@ -4841,7 +4988,7 @@ class genesect(pokemon):
         self.species       = "Genesect"
         self.nature        = self.generateNature()
         self.type          = ["Bug", "Steel"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 71
         self.attack        = 120
         self.defense       = 95
@@ -4861,7 +5008,7 @@ class chespin(pokemon):
         self.species       = "Chespin"
         self.nature        = self.generateNature()
         self.type          = ["Grass"]
-        self.level         = self.generateLevel(1, 15)
+      #  self.level         = self.generateLevel(1, 15)
         self.hp            = 56
         self.attack        = 61
         self.defense       = 65
@@ -4881,7 +5028,7 @@ class quilladin(pokemon):
         self.species       = "Quilladin"
         self.nature        = self.generateNature()
         self.type          = ["Grass"]
-        self.level         = self.generateLevel(16, 35)
+      #  self.level         = self.generateLevel(16, 35)
         self.hp            = 61
         self.attack        = 78
         self.defense       = 95
@@ -4901,7 +5048,7 @@ class chesnaught(pokemon):
         self.species       = "Chesnaught"
         self.nature        = self.generateNature()
         self.type          = ["Grass", "Fighting"]
-        self.level         = self.generateLevel(36, 100)
+       # self.level         = self.generateLevel(36, 100)
         self.hp            = 88
         self.attack        = 107
         self.defense       = 122
@@ -4921,7 +5068,7 @@ class fennekin(pokemon):
         self.species       = "Fennekin"
         self.nature        = self.generateNature()
         self.type          = ["Fire"]
-        self.level         = self.generateLevel(1, 15)
+      #  self.level         = self.generateLevel(1, 15)
         self.hp            = 40
         self.attack        = 45
         self.defense       = 40
@@ -4941,7 +5088,7 @@ class braixen(pokemon):
         self.species       = "Braixen"
         self.nature        = self.generateNature()
         self.type          = ["Fire"]
-        self.level         = self.generateLevel(16,35)
+        #self.level         = self.generateLevel(16,35)
         self.hp            = 59
         self.attack        = 59
         self.defense       = 58
@@ -4961,7 +5108,7 @@ class delphox(pokemon):
         self.species       = "Delphox"
         self.nature        = self.generateNature()
         self.type          = ["Fire", "Psychic"]
-        self.level         = self.generateLevel(36, 100)
+       # self.level         = self.generateLevel(36, 100)
         self.hp            = 75
         self.attack        = 69
         self.defense       = 72
@@ -4981,7 +5128,7 @@ class froakie(pokemon):
         self.species       = "Froakie"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(1, 15)
+      #  self.level         = self.generateLevel(1, 15)
         self.hp            = 41
         self.attack        = 56
         self.defense       = 40
@@ -5001,7 +5148,7 @@ class frogadier(pokemon):
         self.species       = "Frogadier"
         self.nature        = self.generateNature()
         self.type          = ["Water"]
-        self.level         = self.generateLevel(16, 35)
+      #  self.level         = self.generateLevel(16, 35)
         self.hp            = 54
         self.attack        = 63
         self.defense       = 52
@@ -5021,7 +5168,7 @@ class greninja(pokemon):
         self.species       = "Greninja"
         self.nature        = self.generateNature()
         self.type          = ["Water", "Dark"]
-        self.level         = self.generateLevel(1, 15)
+      #  self.level         = self.generateLevel(1, 15)
         self.hp            = 72
         self.attack        = 95
         self.defense       = 67
@@ -5041,7 +5188,7 @@ class bunnelby(pokemon):
         self.species       = "Bunnelby"
         self.nature        = self.generateNature()
         self.type          = ["Normal"]
-        self.level         = self.generateLevel(1, 19)
+       # self.level         = self.generateLevel(1, 19)
         self.hp            = 38
         self.attack        = 36
         self.defense       = 38
@@ -5061,7 +5208,7 @@ class diggersby(pokemon):
         self.species       = "Diggersby"
         self.nature        = self.generateNature()
         self.type          = ["Normal", "Ground"]
-        self.level         = self.generateLevel(20, 100)
+      #  self.level         = self.generateLevel(20, 100)
         self.hp            = 85
         self.attack        = 56
         self.defense       = 77
@@ -5081,7 +5228,7 @@ class fletchling(pokemon):
         self.species       = "Fletchling"
         self.nature        = self.generateNature()
         self.type          = ["Normal", "Flying"]
-        self.level         = self.generateLevel(1, 16)
+       # self.level         = self.generateLevel(1, 16)
         self.hp            = 45
         self.attack        = 50
         self.defense       = 43
@@ -5101,7 +5248,7 @@ class fletchinfer(pokemon):
         self.species       = "Fletchinder"
         self.nature        = self.generateNature()
         self.type          = ["Fire", "Flying"]
-        self.level         = self.generateLevel(17, 34)
+       # self.level         = self.generateLevel(17, 34)
         self.hp            = 62
         self.attack        = 73
         self.defense       = 55
@@ -5121,7 +5268,7 @@ class talonflame(pokemon):
         self.species       = "Talonflame"
         self.nature        = self.generateNature()
         self.type          = ["Fire", "Flying"]
-        self.level         = self.generateLevel(35, 100)
+      #  self.level         = self.generateLevel(35, 100)
         self.hp            = 78
         self.attack        = 81
         self.defense       = 71
@@ -5141,7 +5288,7 @@ class scatterbug(pokemon):
         self.species       = "Scatterbug"
         self.nature        = self.generateNature()
         self.type          = ["Bug"]
-        self.level         = self.generateLevel(1, 8)
+       # self.level         = self.generateLevel(1, 8)
         self.hp            = 38
         self.attack        = 35
         self.defense       = 40
@@ -5161,7 +5308,7 @@ class spewpa(pokemon):
         self.species       = "Spewpa"
         self.nature        = self.generateNature()
         self.type          = ["Bug"]
-        self.level         = self.generateLevel(9, 11)
+       # self.level         = self.generateLevel(9, 11)
         self.hp            = 45
         self.attack        = 22
         self.defense       = 60
@@ -5181,7 +5328,7 @@ class vivillon(pokemon):
         self.species       = "Vivillon"
         self.nature        = self.generateNature()
         self.type          = ["Bug", "Flying"]
-        self.level         = self.generateLevel(12, 100)
+       # self.level         = self.generateLevel(12, 100)
         self.hp            = 80
         self.attack        = 52
         self.defense       = 50
@@ -5201,7 +5348,7 @@ class litleo(pokemon):
         self.species       = "Litleo"
         self.nature        = self.generateNature()
         self.type          = ["Fire", "Normal"]
-        self.level         = self.generateLevel(1, 34)
+       # self.level         = self.generateLevel(1, 34)
         self.hp            = 62
         self.attack        = 50
         self.defense       = 58
@@ -5221,7 +5368,7 @@ class pyroar(pokemon):
         self.species       = "Pyraor"
         self.nature        = self.generateNature()
         self.type          = ["Fire", "Normal"]
-        self.level         = self.generateLevel(35, 100)
+       # self.level         = self.generateLevel(35, 100)
         self.hp            = 82
         self.attack        = 68
         self.defense       = 72
@@ -5241,7 +5388,7 @@ class flabebe(pokemon):
         self.species       = "Flabébé"
         self.nature        = self.generateNature()
         self.type          = ["Fairy"]
-        self.level         = self.generateLevel(1, 18)
+       # self.level         = self.generateLevel(1, 18)
         self.hp            = 44
         self.attack        = 38
         self.defense       = 39
@@ -5261,7 +5408,7 @@ class floette(pokemon):
         self.species       = "Floette"
         self.nature        = self.generateNature()
         self.type          = ["Fairy"]
-        self.level         = self.generateLevel(19, 100)
+       # self.level         = self.generateLevel(19, 100)
         self.hp            = 54
         self.attack        = 45
         self.defense       = 47
@@ -5281,7 +5428,7 @@ class florges(pokemon):
         self.species       = "Florges"
         self.nature        = self.generateNature()
         self.type          = ["Fairy"]
-        self.level         = self.generateLevel(1, 100)     # TODO: Test this is correct
+       # self.level         = self.generateLevel(1, 100)     # TODO: Test this is correct
         self.hp            = 78
         self.attack        = 65
         self.defense       = 68
@@ -5301,7 +5448,7 @@ class skiddo(pokemon):
         self.species       = "Skiddo"
         self.nature        = self.generateNature()
         self.type          = ["Grass"]
-        self.level         = self.generateLevel(1, 31)
+      #  self.level         = self.generateLevel(1, 31)
         self.hp            = 66
         self.attack        = 65
         self.defense       = 48
@@ -5321,7 +5468,7 @@ class gogoat(pokemon):
         self.species       = "Gogoat"
         self.nature        = self.generateNature()
         self.type          = ["Grass"]
-        self.level         = self.generateLevel(32, 100)
+       # self.level         = self.generateLevel(32, 100)
         self.hp            = 123
         self.attack        = 100
         self.defense       = 62
@@ -5341,7 +5488,7 @@ class xerneas(pokemon):
         self.species       = "Xerneas"
         self.nature        = self.generateNature()
         self.type          = ["Fairy"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 126
         self.attack        = 131
         self.defense       = 95
@@ -5361,7 +5508,7 @@ class yveltal(pokemon):
         self.species       = "Yveltal"
         self.nature        = self.generateNature()
         self.type          = ["Dark", "Flying"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 126
         self.attack        = 131
         self.defense       = 95
@@ -5381,7 +5528,7 @@ class zygarde(pokemon):
         self.species       = "Zygarde"
         self.nature        = self.generateNature()
         self.type          = ["Dragon", "Ground"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 108
         self.attack        = 100
         self.defense       = 121
@@ -5401,7 +5548,7 @@ class diancie(pokemon):
         self.species       = "Diancie"
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Fairy"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 50
         self.attack        = 160
         self.defense       = 110
@@ -5421,7 +5568,7 @@ class hoopa(pokemon):
         self.species       = "Hoopa"
         self.nature        = self.generateNature()
         self.type          = ["Psychic", "Ghost"]
-        self.level         = self.generateLevel(1, 100)
+        #self.level         = self.generateLevel(1, 100)
         self.hp            = 80
         self.attack        = 110
         self.defense       = 60
@@ -5441,7 +5588,7 @@ class volcanion(pokemon):
         self.species       = "Volcanion"
         self.nature        = self.generateNature()
         self.type          = ["Fire", "Water"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 80
         self.attack        = 110
         self.defense       = 120
@@ -5455,14 +5602,14 @@ class volcanion(pokemon):
         self.hiddenAbility = ""
         self.hidAbBool     = False
 
-class rowlett(pokemon):
+class rowlet(pokemon):
     def __init__(self):
         self.pokedex       = 722.0
         self.species       = "Rowlet"
         self.nature        = self.generateNature()
         self.type          = ["Grass", "Flying"]
         self.maxLevel      = 17
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+        #self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 68
         self.attack        = 55
         self.defense       = 55
@@ -5483,7 +5630,7 @@ class litten(pokemon):
         self.nature        = self.generateNature()
         self.type          = ["Fire"]
         self.maxLevel      = 17
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+        #self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 45
         self.attack        = 65
         self.defense       = 40
@@ -5504,7 +5651,7 @@ class popplio(pokemon):
         self.nature        = self.generateNature()
         self.type          = ["Water"]
         self.maxLevel      = 17
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+        #self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 50
         self.attack        = 54
         self.defense       = 54
@@ -5524,7 +5671,7 @@ class typeNull(pokemon):
         self.species       = "Type: Null"
         self.nature        = self.generateNature()
         self.type          = ["Normal"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 95
         self.attack        = 95
         self.defense       = 95
@@ -5544,7 +5691,7 @@ class silvally(pokemon):
         self.species       = "Silvally"
         self.nature        = self.generateNature()
         self.type          = ["Normal"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 95
         self.attack        = 95
         self.defense       = 95
@@ -5564,7 +5711,7 @@ class minior(pokemon):
         self.species       = "Minior"
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Flying"]
-        self.level         = self.generateLevel(1, 100)
+        #self.level         = self.generateLevel(1, 100)
         self.hp            = 60
         self.attack        = 100
         self.defense       = 60
@@ -5584,7 +5731,7 @@ class Komala(pokemon):
         self.species       = "Komala"
         self.nature        = self.generateNature()
         self.type          = ["Normal"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 65
         self.attack        = 115
         self.defense       = 65
@@ -5604,7 +5751,7 @@ class tapuKoko(pokemon):
         self.species       = "Tapu Koko"
         self.nature        = self.generateNature()
         self.type          = ["Electric", "Fairy"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 70
         self.attack        = 115
         self.defense       = 85
@@ -5624,7 +5771,7 @@ class tapuLele(pokemon):
         self.species       = "Tapu Lele"
         self.nature        = self.generateNature()
         self.type          = ["Psychic", "Fairy"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 70
         self.attack        = 85
         self.defense       = 75
@@ -5644,7 +5791,7 @@ class tapuBulu(pokemon):
         self.species       = "Tapu Bulu"
         self.nature        = self.generateNature()
         self.type          = ["Grass", "Fairy"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 70
         self.attack        = 130
         self.defense       = 115
@@ -5664,7 +5811,7 @@ class tapuFini(pokemon):
         self.species       = "Tapu Fini"
         self.nature        = self.generateNature()
         self.type          = ["Water", "Fairy"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 70
         self.attack        = 75
         self.defense       = 115
@@ -5684,7 +5831,7 @@ class cosmog(pokemon):
         self.species       = "Cosmog"
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 43
         self.attack        = 29
         self.defense       = 31
@@ -5704,7 +5851,7 @@ class cosmoem(pokemon):
         self.species       = "Cosmoem"
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 43
         self.attack        = 29
         self.defense       = 131
@@ -5724,7 +5871,7 @@ class solgaleo(pokemon):
         self.species       = "Solgaleo"
         self.nature        = self.generateNature()
         self.type          = ["Psychic", "Steel"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 137
         self.attack        = 137
         self.defense       = 107
@@ -5744,7 +5891,7 @@ class lunala(pokemon):
         self.species       = "Lunala"
         self.nature        = self.generateNature()
         self.type          = ["Psychic", "Ghost"]
-        self.level         = self.generateLevel(1, 100)
+        #self.level         = self.generateLevel(1, 100)
         self.hp            = 137
         self.attack        = 113
         self.defense       = 89
@@ -5764,7 +5911,7 @@ class nihilego(pokemon):
         self.species       = "Nihilego"
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Poison"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 109
         self.attack        = 53
         self.defense       = 47
@@ -5784,7 +5931,7 @@ class buzzwole(pokemon):
         self.species       = "Buzzwole"
         self.nature        = self.generateNature()
         self.type          = ["Bug", "Fight"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 107
         self.attack        = 139
         self.defense       = 139
@@ -5804,7 +5951,7 @@ class pheromosa(pokemon):
         self.species       = "Pheromosa"
         self.nature        = self.generateNature()
         self.type          = ["Bug", "Fight"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 71
         self.attack        = 137
         self.defense       = 37
@@ -5824,7 +5971,7 @@ class xurkitree(pokemon):
         self.species       = "Xurkitree"
         self.nature        = self.generateNature()
         self.type          = ["Electric"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 83
         self.attack        = 89
         self.defense       = 71
@@ -5844,7 +5991,7 @@ class celesteela(pokemon):
         self.species       = "Celesteela"
         self.nature        = self.generateNature()
         self.type          = ["Steel", "Flying"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 97
         self.attack        = 101
         self.defense       = 103
@@ -5864,7 +6011,7 @@ class kartana(pokemon):
         self.species       = "Kartana"
         self.nature        = self.generateNature()
         self.type          = ["Grass", "Steel"]
-        self.level         = self.generateLevel(1, 100)
+     #   self.level         = self.generateLevel(1, 100)
         self.hp            = 59
         self.attack        = 181
         self.defense       = 131
@@ -5884,7 +6031,7 @@ class guzzlord(pokemon):
         self.species       = "Guzzlord"
         self.nature        = self.generateNature()
         self.type          = ["Dark", "Dragon"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 223
         self.attack        = 101
         self.defense       = 53
@@ -5904,7 +6051,7 @@ class necrozma(pokemon):
         self.species       = "Necrozma"
         self.nature        = self.generateNature()
         self.type          = ["Psychic"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 97
         self.attack        = 107
         self.defense       = 101
@@ -5924,7 +6071,7 @@ class magearna(pokemon):
         self.species       = "Magearna"
         self.nature        = self.generateNature()
         self.type          = ["Steel", "Fairy"]
-        self.level         = self.generateLevel(1, 100)
+     #   self.level         = self.generateLevel(1, 100)
         self.hp            = 80
         self.attack        = 95
         self.defense       = 115
@@ -5944,7 +6091,7 @@ class marshadow(pokemon):
         self.species       = "Marshadow"
         self.nature        = self.generateNature()
         self.type          = ["Fight", "Ghost"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 90
         self.attack        = 125
         self.defense       = 80
@@ -5964,7 +6111,7 @@ class poipole(pokemon):
         self.species       = "Poipole"
         self.nature        = self.generateNature()
         self.type          = ["Poison"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 67
         self.attack        = 73
         self.defense       = 67
@@ -5984,7 +6131,7 @@ class naganadel(pokemon):
         self.species       = "Naganadel"
         self.nature        = self.generateNature()
         self.type          = ["Poison", "Dragon"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 73
         self.attack        = 73
         self.defense       = 73
@@ -6004,7 +6151,7 @@ class stakataka(pokemon):
         self.species       = "Stakataka"
         self.nature        = self.generateNature()
         self.type          = ["Rock", "Steel"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 61
         self.attack        = 131
         self.defense       = 211
@@ -6024,7 +6171,7 @@ class blacephalon(pokemon):
         self.species       = "Blacephalon"
         self.nature        = self.generateNature()
         self.type          = ["Fire", "Ghost"]
-        self.level         = self.generateLevel(1, 100)
+        #self.level         = self.generateLevel(1, 100)
         self.hp            = 53
         self.attack        = 127
         self.defense       = 53
@@ -6044,7 +6191,7 @@ class zeraora(pokemon):
         self.species       = "Zeraora"
         self.nature        = self.generateNature()
         self.type          = ["Electric"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 88
         self.attack        = 112
         self.defense       = 75
@@ -6064,7 +6211,7 @@ class meltan(pokemon):
         self.species       = "Meltan"
         self.nature        = self.generateNature()
         self.type          = ["Steel"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 46
         self.attack        = 65
         self.defense       = 65
@@ -6084,7 +6231,7 @@ class melmetal(pokemon):
         self.species       = "Melmetal"
         self.nature        = self.generateNature()
         self.type          = ["Steel"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 135
         self.attack        = 143
         self.defense       = 143
@@ -6105,7 +6252,7 @@ class grookey(pokemon):
         self.nature        = self.generateNature()
         self.type          = ["Grass"]
         self.maxLevel      = 16
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 50
         self.attack        = 65
         self.defense       = 50
@@ -6126,7 +6273,7 @@ class scorbunny(pokemon):
         self.nature        = self.generateNature()
         self.type          = ["Fire"]
         self.maxLevel      = 16
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 50
         self.attack        = 71
         self.defense       = 40
@@ -6147,7 +6294,7 @@ class sobble(pokemon):
         self.nature        = self.generateNature()
         self.type          = ["Water"]
         self.maxLevel      = 16
-        self.level         = self.generateLevel(1, self.maxLevel - 1)
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
         self.hp            = 50
         self.attack        = 40
         self.defense       = 40
@@ -6167,7 +6314,7 @@ class zacian(pokemon):
         self.species       = "Zacian"
         self.nature        = self.generateNature()
         self.type          = ["Fairy"]
-        self.level         = self.generateLevel(1, 100)
+      #  self.level         = self.generateLevel(1, 100)
         self.hp            = 92
         self.attack        = 130
         self.defense       = 115
@@ -6187,7 +6334,7 @@ class zamazenta(pokemon):
         self.species       = "Zamazenta"
         self.nature        = self.generateNature()
         self.type          = ["Fight"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 92
         self.attack        = 130
         self.defense       = 115
@@ -6207,7 +6354,7 @@ class eternatus(pokemon):
         self.species       = "Eternatus"
         self.nature        = self.generateNature()
         self.type          = ["Poison", "Dragon"]
-        self.level         = self.generateLevel(1, 100)
+       # self.level         = self.generateLevel(1, 100)
         self.hp            = 255
         self.attack        = 115
         self.defense       = 250
