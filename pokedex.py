@@ -4583,6 +4583,111 @@ class sunflora(pokemon):
         self.hiddenAbility = "Early Bird"
         self.hidAbBool     = False
         
+class yanma(pokemon):
+    def __init__(self):
+        self.pokedex       = 193.0
+        self.species       = "Yanma"
+        self.nature        = self.generateNature()
+        self.type          = ["Bug", "Flying"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 65
+        self.attack        = 65
+        self.defense       = 45
+        self.spAtk         = 75
+        self.spDef         = 45
+        self.speed         = 95
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Speed Boost", "Compound Eyes"]
+        self.ability       = ""
+        self.hiddenAbility = "Frisk"
+        self.hidAbBool     = False
+        
+class wooper(pokemon):
+    def __init__(self):
+        self.pokedex       = 194.0
+        self.species       = "Wooper"
+        self.nature        = self.generateNature()
+        self.type          = ["Water", "Ground"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 55
+        self.attack        = 45
+        self.defense       = 45
+        self.spAtk         = 25
+        self.spDef         = 25
+        self.speed         = 15
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Damp", "Water Absorb"]
+        self.ability       = ""
+        self.hiddenAbility = "Unaware"
+        self.hidAbBool     = False
+        
+class quagsire(pokemon):
+    def __init__(self):
+        self.pokedex       = 195.0
+        self.species       = "Quagsire"
+        self.nature        = self.generateNature()
+        self.type          = ["Water", "Ground"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 95
+        self.attack        = 85
+        self.defense       = 85
+        self.spAtk         = 65
+        self.spDef         = 65
+        self.speed         = 35
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Damp", "Water Absorb"]
+        self.ability       = ""
+        self.hiddenAbility = "Unaware"
+        self.hidAbBool     = False
+        
+class espeon(pokemon):
+    def __init__(self):
+        self.pokedex       = 196.0
+        self.species       = "Espeon"
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 65
+        self.attack        = 65
+        self.defense       = 60
+        self.spAtk         = 130
+        self.spDef         = 95
+        self.speed         = 110
+        self.friend        = 70
+        self.gender        = self.generateGender(87.5)
+        self.abilities     = [""]
+        self.ability       = "Synchronize"
+        self.hiddenAbility = "Magic Bounce"
+        self.hidAbBool     = False
+        
+class umbreon(pokemon):
+    def __init__(self):
+        self.pokedex       = 197.0
+        self.species       = "Umbreon"
+        self.nature        = self.generateNature()
+        self.type          = ["Dark"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 95
+        self.attack        = 65
+        self.defense       = 110
+        self.spAtk         = 60
+        self.spDef         = 130
+        self.speed         = 65
+        self.friend        = 35
+        self.gender        = self.generateGender(87.5)
+        self.abilities     = [""]
+        self.ability       = "Synchronize"
+        self.hiddenAbility = "Inner Focus"
+        self.hidAbBool     = False
+        
 class raikou(pokemon):
     def __init__(self):
         self.pokedex       = 243.0
