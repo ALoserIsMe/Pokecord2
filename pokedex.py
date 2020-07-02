@@ -4436,6 +4436,153 @@ class sudowoodo(pokemon):
         self.hiddenAbility = "Rattled"
         self.hidAbBool     = False
         
+class politoed(pokemon):
+    def __init__(self):
+        self.pokedex       = 186.0
+        self.species       = "Politoed"
+        self.nature        = self.generateNature()
+        self.type          = ["Water"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 90
+        self.attack        = 75
+        self.defense       = 75
+        self.spAtk         = 90
+        self.spDef         = 100
+        self.speed         = 70
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Water Absorb", "Damp"]
+        self.ability       = ""
+        self.hiddenAbility = "Drizzle"
+        self.hidAbBool     = False
+        
+class hoppip(pokemon):
+    def __init__(self):
+        self.pokedex       = 187.0
+        self.species       = "Hoppip"
+        self.nature        = self.generateNature()
+        self.type          = ["Grass", "Flying"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 35
+        self.attack        = 35
+        self.defense       = 40
+        self.spAtk         = 35
+        self.spDef         = 55
+        self.speed         = 50
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Chlorophyll", "Leaf Guard"]
+        self.ability       = ""
+        self.hiddenAbility = "Infiltrator"
+        self.hidAbBool     = False
+        
+class skiploom(pokemon):
+    def __init__(self):
+        self.pokedex       = 188.0
+        self.species       = "Skiploom"
+        self.nature        = self.generateNature()
+        self.type          = ["Grass", "Flying"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 55
+        self.attack        = 45
+        self.defense       = 50
+        self.spAtk         = 45
+        self.spDef         = 65
+        self.speed         = 80
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Chlorophyll", "Leaf Guard"]
+        self.ability       = ""
+        self.hiddenAbility = "Infiltrator"
+        self.hidAbBool     = False
+        
+class jumpluff(pokemon):
+    def __init__(self):
+        self.pokedex       = 189.0
+        self.species       = "Jumpluff"
+        self.nature        = self.generateNature()
+        self.type          = ["Grass", "Flying"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 75
+        self.attack        = 55
+        self.defense       = 70
+        self.spAtk         = 55
+        self.spDef         = 95
+        self.speed         = 110
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Chlorophyll", "Leaf Guard"]
+        self.ability       = ""
+        self.hiddenAbility = "Infiltrator"
+        self.hidAbBool     = False
+        
+class aipom(pokemon):
+    def __init__(self):
+        self.pokedex       = 190.0
+        self.species       = "Aipom"
+        self.nature        = self.generateNature()
+        self.type          = ["Normal"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 55
+        self.attack        = 70
+        self.defense       = 55
+        self.spAtk         = 40
+        self.spDef         = 55
+        self.speed         = 85
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Run Away", "Pickup"]
+        self.ability       = ""
+        self.hiddenAbility = "Skill Link"
+        self.hidAbBool     = False
+        
+class sunkern(pokemon):
+    def __init__(self):
+        self.pokedex       = 191.0
+        self.species       = "Sunkern"
+        self.nature        = self.generateNature()
+        self.type          = ["Grass"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 30
+        self.attack        = 30
+        self.defense       = 30
+        self.spAtk         = 30
+        self.spDef         = 30
+        self.speed         = 30
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Chlorophyll", "Solar Power"]
+        self.ability       = ""
+        self.hiddenAbility = "Early Bird"
+        self.hidAbBool     = False
+        
+class sunflora(pokemon):
+    def __init__(self):
+        self.pokedex       = 192.0
+        self.species       = "Sunflora"
+        self.nature        = self.generateNature()
+        self.type          = ["Grass"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 75
+        self.attack        = 75
+        self.defense       = 55
+        self.spAtk         = 105
+        self.spDef         = 85
+        self.speed         = 30
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Chlorophyll", "Solar Power"]
+        self.ability       = ""
+        self.hiddenAbility = "Early Bird"
+        self.hidAbBool     = False
+        
 class raikou(pokemon):
     def __init__(self):
         self.pokedex       = 243.0
