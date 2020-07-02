@@ -4186,7 +4186,7 @@ class cleffa(pokemon):
         
 class igglybuff(pokemon):
     def __init__(self):
-        self.pokedex       = 173.0
+        self.pokedex       = 174.0
         self.species       = "Igglybuff"
         self.nature        = self.generateNature()
         self.type          = ["Normal", "Fairy"]
@@ -4207,7 +4207,7 @@ class igglybuff(pokemon):
         
 class togepi(pokemon):
     def __init__(self):
-        self.pokedex       = 174.0
+        self.pokedex       = 175.0
         self.species       = "Togepi"
         self.nature        = self.generateNature()
         self.type          = ["Fairy"]
@@ -4228,7 +4228,7 @@ class togepi(pokemon):
         
 class togetic(pokemon):
     def __init__(self):
-        self.pokedex       = 175.0
+        self.pokedex       = 176.0
         self.species       = "Togetic"
         self.nature        = self.generateNature()
         self.type          = ["Fairy", "Flying"]
@@ -4245,6 +4245,195 @@ class togetic(pokemon):
         self.abilities     = ["Hustle", "Serene Grace"]
         self.ability       = ""
         self.hiddenAbility = "Super Luck"
+        self.hidAbBool     = False
+        
+class natu(pokemon):
+    def __init__(self):
+        self.pokedex       = 177.0
+        self.species       = "Natu"
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic", "Flying"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 40
+        self.attack        = 50
+        self.defense       = 45
+        self.spAtk         = 70
+        self.spDef         = 45
+        self.speed         = 70
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Synchronize", "Early Bird"]
+        self.ability       = ""
+        self.hiddenAbility = "Magic Bounce"
+        self.hidAbBool     = False
+        
+class xatu(pokemon):
+    def __init__(self):
+        self.pokedex       = 178.0
+        self.species       = "Xatu"
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic", "Flying"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 65
+        self.attack        = 75
+        self.defense       = 70
+        self.spAtk         = 95
+        self.spDef         = 70
+        self.speed         = 95
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Synchronise", "Early Bird"]
+        self.ability       = ""
+        self.hiddenAbility = "Magic Bounce"
+        self.hidAbBool     = False
+        
+class mareep(pokemon):
+    def __init__(self):
+        self.pokedex       = 179.0
+        self.species       = "Mareep"
+        self.nature        = self.generateNature()
+        self.type          = ["Electric"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 55
+        self.attack        = 40
+        self.defense       = 40
+        self.spAtk         = 65
+        self.spDef         = 45
+        self.speed         = 35
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = [""]
+        self.ability       = "Static"
+        self.hiddenAbility = "Plus"
+        self.hidAbBool     = False
+        
+class flaaffy(pokemon):
+    def __init__(self):
+        self.pokedex       = 180.0
+        self.species       = "Flaaffy"
+        self.nature        = self.generateNature()
+        self.type          = ["Electric"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 70
+        self.attack        = 55
+        self.defense       = 55
+        self.spAtk         = 80
+        self.spDef         = 60
+        self.speed         = 45
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = [""]
+        self.ability       = "Static"
+        self.hiddenAbility = "Plus"
+        self.hidAbBool     = False
+        
+class ampharos(pokemon):
+    def __init__(self):
+        self.pokedex       = 181.0
+        self.species       = "Ampharos"
+        self.nature        = self.generateNature()
+        self.type          = ["Electric"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 90
+        self.attack        = 75
+        self.defense       = 85
+        self.spAtk         = 115
+        self.spDef         = 90
+        self.speed         = 55
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = [""]
+        self.ability       = "Static"
+        self.hiddenAbility = "Plus"
+        self.hidAbBool     = False
+        
+class bellossom(pokemon):
+    def __init__(self):
+        self.pokedex       = 182.0
+        self.species       = "Bellossom"
+        self.nature        = self.generateNature()
+        self.type          = ["Grass"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 75
+        self.attack        = 80
+        self.defense       = 95
+        self.spAtk         = 90
+        self.spDef         = 100
+        self.speed         = 50
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = [""]
+        self.ability       = "Chlorophyll"
+        self.hiddenAbility = "Healer"
+        self.hidAbBool     = False
+        
+class marill(pokemon):
+    def __init__(self):
+        self.pokedex       = 183.0
+        self.species       = "Marill"
+        self.nature        = self.generateNature()
+        self.type          = ["Water", "Fairy"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 70
+        self.attack        = 20
+        self.defense       = 50
+        self.spAtk         = 20
+        self.spDef         = 50
+        self.speed         = 40
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Thick Fat", "Huge Power"]
+        self.ability       = ""
+        self.hiddenAbility = "Sap Sipper"
+        self.hidAbBool     = False
+        
+class azumarill(pokemon):
+    def __init__(self):
+        self.pokedex       = 184.0
+        self.species       = "Azumarill"
+        self.nature        = self.generateNature()
+        self.type          = ["Water", "Fairy"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 100
+        self.attack        = 50
+        self.defense       = 80
+        self.spAtk         = 60
+        self.spDef         = 80
+        self.speed         = 50
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Thick Fat", "Huge Power"]
+        self.ability       = ""
+        self.hiddenAbility = "Sap Sipper"
+        self.hidAbBool     = False
+        
+class sudowoodo(pokemon):
+    def __init__(self):
+        self.pokedex       = 185.0
+        self.species       = "Sudowoodo"
+        self.nature        = self.generateNature()
+        self.type          = ["Rock"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 70
+        self.attack        = 100
+        self.defense       = 115
+        self.spAtk         = 30
+        self.spDef         = 65
+        self.speed         = 30
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Sturdy", "Rock Head"]
+        self.ability       = ""
+        self.hiddenAbility = "Rattled"
         self.hidAbBool     = False
         
 class raikou(pokemon):
