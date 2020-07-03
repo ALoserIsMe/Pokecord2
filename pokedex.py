@@ -4688,6 +4688,216 @@ class umbreon(pokemon):
         self.hiddenAbility = "Inner Focus"
         self.hidAbBool     = False
         
+class murkrow(pokemon):
+    def __init__(self):
+        self.pokedex       = 198.0
+        self.species       = "Murkrow"
+        self.nature        = self.generateNature()
+        self.type          = ["Dark", "Flying"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 60
+        self.attack        = 85
+        self.defense       = 42
+        self.spAtk         = 85
+        self.spDef         = 42
+        self.speed         = 91
+        self.friend        = 35
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Insomnia", "Super Luck"]
+        self.ability       = ""
+        self.hiddenAbility = "Prankster"
+        self.hidAbBool     = False
+        
+class slowking(pokemon):
+    def __init__(self):
+        self.pokedex       = 199.0
+        self.species       = "Slowking"
+        self.nature        = self.generateNature()
+        self.type          = ["Water", "Psychic"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 95
+        self.attack        = 75
+        self.defense       = 80
+        self.spAtk         = 100
+        self.spDef         = 110
+        self.speed         = 30
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Oblivious", "Own Tempo"]
+        self.ability       = ""
+        self.hiddenAbility = "Regenerator"
+        self.hidAbBool     = False
+        
+class misdreavus(pokemon):
+    def __init__(self):
+        self.pokedex       = 200.0
+        self.species       = "Misdreavus"
+        self.nature        = self.generateNature()
+        self.type          = ["Ghost"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 60
+        self.attack        = 60
+        self.defense       = 60
+        self.spAtk         = 85
+        self.spDef         = 85
+        self.speed         = 85
+        self.friend        = 35
+        self.gender        = self.generateGender(50)
+        self.abilities     = [""]
+        self.ability       = "Levitate"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+        
+class unown(pokemon):
+    def __init__(self):
+        self.pokedex       = 201.0
+        self.species       = "Unown"
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 48
+        self.attack        = 72
+        self.defense       = 48
+        self.spAtk         = 72
+        self.spDef         = 48
+        self.speed         = 48
+        self.friend        = 70
+        self.gender        = self.generateGender(0)
+        self.abilities     = [""]
+        self.ability       = "Levitate"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+        
+class wobbuffet(pokemon):
+    def __init__(self):
+        self.pokedex       = 202.0
+        self.species       = "Wobbuffet"
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 190
+        self.attack        = 33
+        self.defense       = 58
+        self.spAtk         = 33
+        self.spDef         = 58
+        self.speed         = 33
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = [""]
+        self.ability       = "Shadow Tag"
+        self.hiddenAbility = "Telepathy"
+        self.hidAbBool     = False
+        
+class girafarig(pokemon):
+    def __init__(self):
+        self.pokedex       = 203.0
+        self.species       = "Girafarig"
+        self.nature        = self.generateNature()
+        self.type          = ["Normal", "Psychic"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 70
+        self.attack        = 80
+        self.defense       = 65
+        self.spAtk         = 90
+        self.spDef         = 65
+        self.speed         = 85
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Inner Focus", "Early Bird"]
+        self.ability       = ""
+        self.hiddenAbility = "Sap Sipper"
+        self.hidAbBool     = False
+        
+class pineco(pokemon):
+    def __init__(self):
+        self.pokedex       = 204.0
+        self.species       = "Pineco"
+        self.nature        = self.generateNature()
+        self.type          = ["Bug"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 50
+        self.attack        = 65
+        self.defense       = 90
+        self.spAtk         = 35
+        self.spDef         = 35
+        self.speed         = 15
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = [""]
+        self.ability       = "Sturdy"
+        self.hiddenAbility = "Overcoat"
+        self.hidAbBool     = False
+        
+class forretress(pokemon):
+    def __init__(self):
+        self.pokedex       = 205.0
+        self.species       = "Forretress"
+        self.nature        = self.generateNature()
+        self.type          = ["Bug", "Steel"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 75
+        self.attack        = 90
+        self.defense       = 140
+        self.spAtk         = 60
+        self.spDef         = 60
+        self.speed         = 40
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = [""]
+        self.ability       = "Sturdy"
+        self.hiddenAbility = "Overcoat"
+        self.hidAbBool     = False
+        
+class dunsparce(pokemon):
+    def __init__(self):
+        self.pokedex       = 206.0
+        self.species       = "Dunsparce"
+        self.nature        = self.generateNature()
+        self.type          = ["Normal"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 100
+        self.attack        = 70
+        self.defense       = 70
+        self.spAtk         = 65
+        self.spDef         = 65
+        self.speed         = 45
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Serene Grace", "Run Away"]
+        self.ability       = ""
+        self.hiddenAbility = "Rattled"
+        self.hidAbBool     = False
+        
+class gligar(pokemon):
+    def __init__(self):
+        self.pokedex       = 207.0
+        self.species       = "Gligar"
+        self.nature        = self.generateNature()
+        self.type          = ["Ground", "Flying"]
+      #  self.maxLevel      = 18
+       # self.level         = self.generateLevel(1, self.maxLevel - 1)
+        self.hp            = 65
+        self.attack        = 75
+        self.defense       = 105
+        self.spAtk         = 35
+        self.spDef         = 65
+        self.speed         = 85
+        self.friend        = 70
+        self.gender        = self.generateGender(50)
+        self.abilities     = ["Hyper Cutter", "Sand Veil"]
+        self.ability       = ""
+        self.hiddenAbility = "Immunity"
+        self.hidAbBool     = False
+        
 class raikou(pokemon):
     def __init__(self):
         self.pokedex       = 243.0
